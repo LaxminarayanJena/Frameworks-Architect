@@ -1,0 +1,5 @@
+com\ddf\base\TestBase.class
+com\ddf\testcases\AddCustomer.class
+com\ddf\rough\TestProperties.class
+com\ddf\utilities\ExcelReader.class
+com\ddf\testcases\BankMangerLogin.class

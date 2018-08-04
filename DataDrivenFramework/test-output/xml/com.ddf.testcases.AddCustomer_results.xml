@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DataDrivenFrameworkTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.693">
+  <properties />
+  
+  
+            <testcase name="addCustomer" time="0.472" classname="com.ddf.testcases.AddCustomer" />
+                <testcase name="addCustomer" time="1.221" classname="com.ddf.testcases.AddCustomer" />
+      
+</testsuite>

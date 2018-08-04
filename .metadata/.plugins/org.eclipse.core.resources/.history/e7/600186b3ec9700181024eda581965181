@@ -1,0 +1,13 @@
+package com.ddf.testcases;
+
+import org.testng.annotations.Test;
+
+public class AddCustomer {
+	
+	@Test(dataProvider="getData")
+	public void addCustomer()
+	{
+		
+	}
+
+}

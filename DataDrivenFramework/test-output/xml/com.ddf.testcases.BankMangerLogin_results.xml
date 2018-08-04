@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DataDrivenFrameworkTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.234">
+  <properties />
+  
+  
+            <testcase name="loginAsBankManager" time="0.234" classname="com.ddf.testcases.BankMangerLogin" />
+      
+</testsuite>

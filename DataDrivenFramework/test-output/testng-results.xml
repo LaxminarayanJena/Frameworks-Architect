@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Login sucessfully executed]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="187" started-at="2018-08-04T08:14:34Z" finished-at="2018-08-04T08:14:35Z">
+  <suite name="Suite" duration-ms="1994" started-at="2018-08-04T19:00:28Z" finished-at="2018-08-04T19:00:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="187" started-at="2018-08-04T08:14:34Z" finished-at="2018-08-04T08:14:35Z">
-      <class name="com.ddf.testcases.Login">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ddf.testcases.Login@4bb4de6a]" name="setUp" is-config="true" duration-ms="7530" started-at="2018-08-04T08:14:27Z" finished-at="2018-08-04T08:14:34Z">
+    <test name="DataDrivenFrameworkTest" duration-ms="1994" started-at="2018-08-04T19:00:28Z" finished-at="2018-08-04T19:00:30Z">
+      <class name="com.ddf.testcases.BankMangerLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ddf.testcases.BankMangerLogin@6631f5ca]" name="setUp" is-config="true" duration-ms="8594" started-at="2018-08-04T19:00:19Z" finished-at="2018-08-04T19:00:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.ddf.testcases.Login@4bb4de6a]" name="loginAsBankManager" duration-ms="156" started-at="2018-08-04T08:14:34Z" finished-at="2018-08-04T08:14:35Z">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.ddf.testcases.BankMangerLogin@6631f5ca]" name="loginAsBankManager" duration-ms="234" started-at="2018-08-04T19:00:28Z" finished-at="2018-08-04T19:00:28Z">
           <reporter-output>
+            <line>
+              <![CDATA[Login sucessfully executed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ddf.testcases.Login@4bb4de6a]" name="tearDown" is-config="true" duration-ms="1193" started-at="2018-08-04T08:14:35Z" finished-at="2018-08-04T08:14:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ddf.testcases.BankMangerLogin@6631f5ca]" name="tearDown" is-config="true" duration-ms="1224" started-at="2018-08-04T19:00:30Z" finished-at="2018-08-04T19:00:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ddf.testcases.Login -->
-    </test> <!-- Test -->
+      </class> <!-- com.ddf.testcases.BankMangerLogin -->
+      <class name="com.ddf.testcases.AddCustomer">
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.AddCustomer@5ace1ed4]" name="addCustomer" duration-ms="1221" started-at="2018-08-04T19:00:28Z" data-provider="getData" finished-at="2018-08-04T19:00:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6789.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.AddCustomer@5ace1ed4]" name="addCustomer" duration-ms="472" started-at="2018-08-04T19:00:29Z" data-provider="getData" finished-at="2018-08-04T19:00:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[df]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[44554.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- com.ddf.testcases.AddCustomer -->
+    </test> <!-- DataDrivenFrameworkTest -->
   </suite> <!-- Suite -->
 </testng-results>
