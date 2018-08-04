@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="187" started-at="2018-08-04T08:14:34Z" finished-at="2018-08-04T08:14:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="187" started-at="2018-08-04T08:14:34Z" finished-at="2018-08-04T08:14:35Z">
+      <class name="com.ddf.testcases.Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ddf.testcases.Login@4bb4de6a]" name="setUp" is-config="true" duration-ms="7530" started-at="2018-08-04T08:14:27Z" finished-at="2018-08-04T08:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.ddf.testcases.Login@4bb4de6a]" name="loginAsBankManager" duration-ms="156" started-at="2018-08-04T08:14:34Z" finished-at="2018-08-04T08:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ddf.testcases.Login@4bb4de6a]" name="tearDown" is-config="true" duration-ms="1193" started-at="2018-08-04T08:14:35Z" finished-at="2018-08-04T08:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ddf.testcases.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

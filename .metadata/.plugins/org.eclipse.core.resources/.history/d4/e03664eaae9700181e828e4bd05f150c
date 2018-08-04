@@ -1,0 +1,13 @@
+package com.ddf.rough;
+
+import java.util.Properties;
+
+public class TestProperties {
+
+	public static void main(String[] args) {
+		Properties config =new Properties();
+		
+
+	}
+
+}

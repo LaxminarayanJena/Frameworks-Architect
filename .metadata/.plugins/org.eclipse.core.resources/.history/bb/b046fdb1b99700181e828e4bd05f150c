@@ -1,0 +1,15 @@
+package com.ddf.testcases;
+
+import org.testng.annotations.Test;
+
+import com.ddf.base.TestBase;
+
+public class Login extends TestBase {
+	
+	@Test
+	public void loginAsBankManager()
+	{
+		
+	}
+
+}

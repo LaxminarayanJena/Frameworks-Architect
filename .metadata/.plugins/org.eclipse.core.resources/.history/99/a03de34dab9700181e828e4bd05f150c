@@ -1,0 +1,24 @@
+package com.ddf.base;
+
+public class TestBase {
+
+	/*
+	 * WebDriver
+	 * Properties
+	 * Logs
+	 * ExtentsRepots
+	 * DB
+	 * Excel
+	 * Mail
+	 */
+	
+	public void setUp()
+	{
+		
+	}
+	
+	public void tearDown()
+	{
+		
+	}
+}
