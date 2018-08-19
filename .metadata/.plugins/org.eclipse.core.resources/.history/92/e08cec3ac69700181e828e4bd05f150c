@@ -1,2 +1,0 @@
-bmlbtn=//button[contains(text(),'Bank Manager Login')]
-addCustBtn=//div[@class='center']//button[1]'

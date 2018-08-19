@@ -13,11 +13,11 @@ public class BankMangerLogin extends TestBase {
 	public void loginAsBankManager()
 	{
 		
-		driver.findElement(By.xpath(OR.getProperty("bmlbtn"))).click();
-		
+		driver.findElement(By.xpath(OR.getProperty("bmlbtn"))).click();		
 		Assert.assertTrue("Login not sucessfull" ,isElementPresent(By.xpath(OR.getProperty("addCustBtn"))));
 		log.debug("logged in sucessfully");
 		Reporter.log("Login sucessfully executed");
+		Assert.fail("login not found");
 	}
 
 }

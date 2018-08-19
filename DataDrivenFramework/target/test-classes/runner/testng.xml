@@ -6,18 +6,22 @@
   
    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+   <listener class-name="com.ddf.listeners.CustomListeners"/>
   </listeners>
   
   
   
-  <test thread-count="5" name="DataDrivenFrameworkTest">
+<test name ="Bank Manager Test">
     <classes>    
-      <class name="com.ddf.testcases.BankMangerLogin"/>
+      <class name="com.ddf.testcases.BankMangerLogin"/>     
+    </classes>
+     </test> <!-- Test -->
+     
+     
+     <test name ="Add Customer Test">
+    <classes>         
        <class name="com.ddf.testcases.AddCustomer"/>
     </classes>
-    
-   
-   
-    
-  </test> <!-- Test -->
+     </test> <!-- Test -->
+     
 </suite> <!-- Suite -->

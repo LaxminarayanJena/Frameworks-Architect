@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.ddf.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Bank Manager Test(failed)">
+    <classes>
+      <class name="com.ddf.testcases.BankMangerLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginAsBankManager"/>
+        </methods>
+      </class> <!-- com.ddf.testcases.BankMangerLogin -->
+    </classes>
+  </test> <!-- Bank Manager Test(failed) -->
+  <test thread-count="5" verbose="0" name="Add Customer Test(failed)">
+    <classes>
+      <class name="com.ddf.testcases.AddCustomer">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="addCustomer" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.ddf.testcases.AddCustomer -->
+    </classes>
+  </test> <!-- Add Customer Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
