@@ -9,14 +9,23 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import com.ddf.utilities.ExcelReader;
+import com.ddf.utilities.ExtentManger;
+import com.ddf.utilities.TestUtil;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class TestBase {
 
@@ -40,6 +49,10 @@ public class TestBase {
 	public static ExcelReader excel= new ExcelReader("D:\\Projects\\LiveProjects(Architect)\\DataDrivenFramework\\src\\test\\resources\\excel\\TestData.xlsx");
 	public static WebDriverWait wait;
 	//import from apachelog4j only
+	public ExtentReports rep= ExtentManger.getInstance();
+	public static ExtentTest test;
+	public static WebElement dropdown;
+	
 	
 	
 	@BeforeSuite
@@ -84,6 +97,30 @@ public class TestBase {
 		wait= new WebDriverWait(driver,5);
 	}
 	
+	public void click(String locator)
+	
+	{
+		driver.findElement(By.xpath(OR.getProperty(locator))).click();
+		test.log(LogStatus.INFO, "Clicking on :" + locator);
+	}
+	
+	public void type(String locator, String value)
+	{
+		driver.findElement(By.xpath(OR.getProperty(locator))).sendKeys(value);
+		test.log(LogStatus.INFO, "Typing in :" +locator+" entered value as" + value);
+	}
+	
+	public void select(String locator,String value)
+	{
+		
+		dropdown = driver.findElement(By.xpath(OR.getProperty(locator)));
+		Select select = new Select(dropdown);
+		select.selectByVisibleText(value);
+		test.log(LogStatus.INFO, "Selecting from dropdown : " + locator + " value as " + value);
+
+			
+		
+	}
 	public boolean isElementPresent(By by)
 	{
 		
@@ -99,6 +136,28 @@ public class TestBase {
 		
 	}
 	
+	public static void verifyEquals(String expected, String actual) throws IOException {
+
+		try {
+
+			Assert.assertEquals(actual, expected);
+
+		} catch (Throwable t) {
+
+			TestUtil.captureScreenshot();
+			// ReportNG
+			Reporter.log("<br>" + "Verification failure : " + t.getMessage() + "<br>");
+			Reporter.log("<a target=\"_blank\" href=" + TestUtil.screenshotName + "><img src=" + TestUtil.screenshotName
+					+ " height=200 width=200></img></a>");
+			Reporter.log("<br>");
+			Reporter.log("<br>");
+			// Extent Reports
+			test.log(LogStatus.FAIL, " Verification failed with exception : " + t.getMessage());
+			test.log(LogStatus.FAIL, test.addScreenCapture(TestUtil.screenshotName));
+
+		}
+
+	}
 	
 	@AfterSuite
 	public void tearDown()

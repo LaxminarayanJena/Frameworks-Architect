@@ -20,7 +20,13 @@
      
      <test name ="Add Customer Test">
     <classes>         
-       <class name="com.ddf.testcases.AddCustomer"/>
+       <class name="com.ddf.testcases.AddCustomerTest"/>
+    </classes>
+     </test> <!-- Test -->
+     
+     <test name ="Open Account Test">
+    <classes>    
+      <class name="com.ddf.testcases.OpenAccountTest"/>     
     </classes>
      </test> <!-- Test -->
      

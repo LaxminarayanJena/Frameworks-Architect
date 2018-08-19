@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Customer Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.784">
+  <properties />
+  
+  
+            <testcase name="AddCustomer" time="0.962" classname="com.ddf.testcases.AddCustomerTest" />
+                <testcase name="AddCustomer" time="0.822" classname="com.ddf.testcases.AddCustomerTest" />
+      
+</testsuite>

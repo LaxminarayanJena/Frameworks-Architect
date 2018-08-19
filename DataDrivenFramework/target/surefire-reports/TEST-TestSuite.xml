@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.944" tests="3" errors="0" skipped="0" failures="3">
+<testsuite name="TestSuite" time="3.307" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Projects\LiveProjects(Architect)\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7510087021521118509.tmp"/>
+    <property name="classworlds.conf" value="D:\Projects\LiveProjects(Architect)\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1198062015417960790.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_172/bin/server;C:/Program Files/Java/jre1.8.0_172/bin;C:/Program Files/Java/jre1.8.0_172/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Git\cmd;D:\Software\Testing Software\apache-maven-3.5.3\bin;C:\Users\Poltu\AppData\Local\Android\sdk\tools;C:\Users\Poltu\AppData\Local\Android\sdk\platform-tools;C:\Program Files\nodejs\;C:\Users\Poltu\AppData\Roaming\npm;C:\Users\Poltu\AppData\Local\Programs\Python\Python36-32;D:\Software\Testing Software\axis2-1.6.2\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Poltu\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Docker Toolbox;D:\Software\Testing Software\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,33 +60,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginAsBankManager" classname="com.ddf.testcases.BankMangerLogin" time="0.286">
-    <failure message="login not found" type="java.lang.AssertionError">java.lang.AssertionError: login not found
-	at org.junit.Assert.fail(Assert.java:88)
-	at com.ddf.testcases.BankMangerLogin.loginAsBankManager(BankMangerLogin.java:20)
-</failure>
-    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (devpinoyLogger).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 8761
-Only local connections are allowed.
-Aug 19, 2018 11:09:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="addCustomer" classname="com.ddf.testcases.AddCustomer" time="0.658">
-    <failure message="customer not added sucessfully" type="java.lang.AssertionError">java.lang.AssertionError: customer not added sucessfully
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.ddf.testcases.AddCustomer.addCustomer(AddCustomer.java:26)
-</failure>
-    <system-out><![CDATA[Total rows are3
-Total columns are4
-]]></system-out>
-  </testcase>
-  <testcase name="addCustomer" classname="com.ddf.testcases.AddCustomer" time="0.304">
-    <failure message="customer not added sucessfully" type="java.lang.AssertionError">java.lang.AssertionError: customer not added sucessfully
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.ddf.testcases.AddCustomer.addCustomer(AddCustomer.java:26)
-</failure>
-  </testcase>
+  <testcase name="loginAsBankManager" classname="com.ddf.testcases.BankMangerLogin" time="1.031"/>
+  <testcase name="AddCustomer" classname="com.ddf.testcases.AddCustomerTest" time="0.847"/>
+  <testcase name="AddCustomer" classname="com.ddf.testcases.AddCustomerTest" time="0.962"/>
+  <testcase name="OpenAccount" classname="com.ddf.testcases.OpenAccountTest" time="1.429"/>
 </testsuite>

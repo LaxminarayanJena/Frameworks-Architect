@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 20.832 sec <<< FAILURE! - in TestSuite
-loginAsBankManager(com.ddf.testcases.BankMangerLogin)  Time elapsed: 0.286 sec  <<< FAILURE!
-java.lang.AssertionError: login not found
-	at org.junit.Assert.fail(Assert.java:88)
-	at com.ddf.testcases.BankMangerLogin.loginAsBankManager(BankMangerLogin.java:20)
-
-addCustomer(com.ddf.testcases.AddCustomer)  Time elapsed: 0.658 sec  <<< FAILURE!
-java.lang.AssertionError: customer not added sucessfully
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.ddf.testcases.AddCustomer.addCustomer(AddCustomer.java:26)
-
-addCustomer(com.ddf.testcases.AddCustomer)  Time elapsed: 0.304 sec  <<< FAILURE!
-java.lang.AssertionError: customer not added sucessfully
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.ddf.testcases.AddCustomer.addCustomer(AddCustomer.java:26)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.012 sec - in TestSuite
