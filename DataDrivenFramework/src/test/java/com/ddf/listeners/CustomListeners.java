@@ -6,6 +6,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.SkipException;
 
 import com.ddf.base.TestBase;
 import com.ddf.utilities.TestUtil;
@@ -51,12 +52,20 @@ public class CustomListeners extends TestBase implements ITestListener {
 
 	public void onTestSkipped(ITestResult arg0) {
 		
-		
+	test.log(LogStatus.SKIP, arg0.getName().toUpperCase()+"Skipped the test case as run mode is set to NO");	
+	rep.endTest(test);
+	rep.flush();
 	}
 
 	public void onTestStart(ITestResult arg0) {
+	
 		
-		
+	/*   test=rep.startTest(arg0.getName().toUpperCase());
+		if(TestUtil.isTestRunnable(arg0.getName(), excel))
+		{
+			throw new SkipException("Skipping the test" +arg0.getName().toUpperCase()+"Skipped the test case as run mode is set to NO");
+		}
+		*/
 	}
 
 	public void onTestSuccess(ITestResult arg0) {

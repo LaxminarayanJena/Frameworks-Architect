@@ -2,50 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
     <line>
-      <![CDATA[<br>Verification failure : expected [abc] but found [xyz]<br>]]>
-    </line>
-    <line>
-      <![CDATA[<a target="_blank" href=Mon_Aug_20_00_27_38_IST_2018.jpg><img src=Mon_Aug_20_00_27_38_IST_2018.jpg height=200 width=200></img></a>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
       <![CDATA[Login sucessfully executed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="4991" started-at="2018-08-19T18:57:38Z" finished-at="2018-08-19T18:57:43Z">
+  <suite name="Suite" duration-ms="3798" started-at="2018-08-22T06:05:01Z" finished-at="2018-08-22T06:05:05Z">
     <groups>
     </groups>
-    <test name="Bank Manager Test" duration-ms="1393" started-at="2018-08-19T18:57:38Z" finished-at="2018-08-19T18:57:39Z">
+    <test name="Bank Manager Test" duration-ms="1329" started-at="2018-08-22T06:05:01Z" finished-at="2018-08-22T06:05:02Z">
       <class name="com.ddf.testcases.BankMangerLogin">
-        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.ddf.testcases.BankMangerLogin@2f217633]" name="loginAsBankManager" duration-ms="1028" started-at="2018-08-19T18:57:38Z" finished-at="2018-08-19T18:57:39Z">
+        <test-method status="PASS" signature="bankMangerLogin()[pri:0, instance:com.ddf.testcases.BankMangerLogin@a530d0a]" name="bankMangerLogin" duration-ms="995" started-at="2018-08-22T06:05:01Z" finished-at="2018-08-22T06:05:02Z">
           <reporter-output>
-            <line>
-              <![CDATA[<br>Verification failure : expected [abc] but found [xyz]<br>]]>
-            </line>
-            <line>
-              <![CDATA[<a target="_blank" href=Mon_Aug_20_00_27_38_IST_2018.jpg><img src=Mon_Aug_20_00_27_38_IST_2018.jpg height=200 width=200></img></a>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
             <line>
               <![CDATA[Login sucessfully executed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- loginAsBankManager -->
+        </test-method> <!-- bankMangerLogin -->
       </class> <!-- com.ddf.testcases.BankMangerLogin -->
     </test> <!-- Bank Manager Test -->
-    <test name="Add Customer Test" duration-ms="2048" started-at="2018-08-19T18:57:39Z" finished-at="2018-08-19T18:57:41Z">
+    <test name="Add Customer Test" duration-ms="1632" started-at="2018-08-22T06:05:02Z" finished-at="2018-08-22T06:05:04Z">
       <class name="com.ddf.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.AddCustomerTest@342c38f8]" name="AddCustomer" duration-ms="822" started-at="2018-08-19T18:57:39Z" data-provider="dp" finished-at="2018-08-19T18:57:40Z">
+        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.AddCustomerTest@c88a337]" name="AddCustomer" duration-ms="970" started-at="2018-08-22T06:05:02Z" data-provider="dp" finished-at="2018-08-22T06:05:03Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCustomer -->
-        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.AddCustomerTest@342c38f8]" name="AddCustomer" duration-ms="962" started-at="2018-08-19T18:57:40Z" data-provider="dp" finished-at="2018-08-19T18:57:41Z">
+        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.AddCustomerTest@c88a337]" name="AddCustomer" duration-ms="473" started-at="2018-08-22T06:05:03Z" data-provider="dp" finished-at="2018-08-22T06:05:04Z">
           <params>
             <param index="0">
               <value>
@@ -99,13 +75,13 @@
         </test-method> <!-- AddCustomer -->
       </class> <!-- com.ddf.testcases.AddCustomerTest -->
     </test> <!-- Add Customer Test -->
-    <test name="Open Account Test" duration-ms="1496" started-at="2018-08-19T18:57:41Z" finished-at="2018-08-19T18:57:43Z">
+    <test name="Open Account Test" duration-ms="701" started-at="2018-08-22T06:05:04Z" finished-at="2018-08-22T06:05:05Z">
       <class name="com.ddf.testcases.OpenAccountTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ddf.testcases.OpenAccountTest@5a56cdac]" name="setUp" is-config="true" duration-ms="12284" started-at="2018-08-19T18:57:25Z" finished-at="2018-08-19T18:57:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="setUp" is-config="true" duration-ms="9648" started-at="2018-08-22T06:04:51Z" finished-at="2018-08-22T06:05:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="OpenAccount(java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.OpenAccountTest@5a56cdac]" name="OpenAccount" duration-ms="1428" started-at="2018-08-19T18:57:41Z" data-provider="dp" finished-at="2018-08-19T18:57:43Z">
+        <test-method status="PASS" signature="OpenAccount(java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="OpenAccount" duration-ms="622" started-at="2018-08-22T06:05:04Z" data-provider="dp" finished-at="2018-08-22T06:05:04Z">
           <params>
             <param index="0">
               <value>
@@ -121,7 +97,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAccount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ddf.testcases.OpenAccountTest@5a56cdac]" name="tearDown" is-config="true" duration-ms="1406" started-at="2018-08-19T18:57:43Z" finished-at="2018-08-19T18:57:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="tearDown" is-config="true" duration-ms="1080" started-at="2018-08-22T06:05:05Z" finished-at="2018-08-22T06:05:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
