@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Add Customer Test"
-           tests="2"
+           tests="4"
            failures="0"
            errors="0"
-           skipped="0"
-           time="2.562">
+           skipped="1"
+           time="1.866">
   <properties />
   
+            <testcase name="AddCustomer" time="0.0" classname="com.ddf.testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
   
-            <testcase name="AddCustomer" time="2.109" classname="com.ddf.testcases.AddCustomerTest" />
-                <testcase name="AddCustomer" time="0.453" classname="com.ddf.testcases.AddCustomerTest" />
+            <testcase name="AddCustomer" time="0.421" classname="com.ddf.testcases.AddCustomerTest" />
+                <testcase name="AddCustomer" time="0.448" classname="com.ddf.testcases.AddCustomerTest" />
+                <testcase name="AddCustomer" time="0.997" classname="com.ddf.testcases.AddCustomerTest" />
       
 </testsuite>

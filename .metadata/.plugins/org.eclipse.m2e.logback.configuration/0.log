@@ -2534,3 +2534,155 @@
 2018-08-23 09:32:35,412 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
 2018-08-23 09:32:35,412 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
 2018-08-23 09:41:27,662 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-08-23 09:44:12,461 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-08-23 09:44:52,113 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.DDF:DataDrivenFramework:0.0.1-SNAPSHOT @ D:\Projects\LiveProjects(Architect)\DataDrivenFramework\pom.xml.
+2018-08-23 09:44:53,120 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:44:53,143 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:44:53,159 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:44:53,463 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-08-23 09:44:55,961 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataDrivenFramework/src/main/java
+2018-08-23 09:44:55,964 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataDrivenFramework/src/test/java
+2018-08-23 09:44:55,965 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DataDrivenFramework/src/test/resources/properties
+2018-08-23 09:44:56,374 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2018-08-23 09:45:01,884 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:45:02,332 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:45:02,356 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:45:02,578 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-08-23 09:45:02,779 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:45:02,793 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:45:02,797 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:45:02,817 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 09:45:59,706 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-23 09:46:00,667 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.DDF:DataDrivenFramework:0.0.1-SNAPSHOT @ D:\Projects\LiveProjects(Architect)\DataDrivenFramework\pom.xml.
+2018-08-23 09:46:01,255 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:46:01,265 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:46:01,279 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:46:01,470 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-08-23 09:46:02,291 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataDrivenFramework/src/main/java
+2018-08-23 09:46:02,293 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataDrivenFramework/src/test/java
+2018-08-23 09:46:02,293 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DataDrivenFramework/src/test/resources/properties
+2018-08-23 09:46:02,624 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2018-08-23 09:46:03,619 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:46:03,634 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:46:03,648 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-08-23 09:46:03,816 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-08-23 09:46:03,965 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:46:03,975 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:46:03,978 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:46:03,989 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 09:46:17,847 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 09:46:17,848 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-08-23 09:46:20,492 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:46:20,501 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:46:20,503 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:46:20,519 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 09:46:27,586 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 09:46:27,586 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2018-08-23 09:46:54,706 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:46:54,784 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:46:54,786 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:46:54,797 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 09:49:44,396 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:49:44,404 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:49:44,406 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:49:44,415 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 09:49:52,511 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:49:52,542 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:49:52,544 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:49:52,554 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 09:50:57,418 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:50:57,428 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:50:57,429 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:50:57,440 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 09:52:17,406 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:52:17,413 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:52:17,415 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:52:17,423 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 09:55:44,192 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:55:44,200 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:55:44,202 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:55:44,210 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 09:55:50,581 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 09:55:50,581 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-08-23 09:55:53,293 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:55:53,308 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:55:53,310 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:55:53,321 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 09:55:57,168 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 09:55:57,168 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2018-08-23 09:56:50,846 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:56:50,869 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 09:56:50,870 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 09:56:50,878 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:14:10,671 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:14:10,703 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:14:10,703 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:14:10,718 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:14:24,153 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:14:24,168 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:14:24,168 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:14:24,168 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:14:42,033 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:14:42,048 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:14:42,048 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:14:42,064 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:15:03,955 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 10:15:03,955 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-08-23 10:15:06,636 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:15:06,636 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:15:06,636 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:15:06,651 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:15:11,447 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 10:15:11,447 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2018-08-23 10:16:02,877 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:16:02,924 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:16:02,924 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:16:02,940 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:17:19,282 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:17:19,282 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:17:19,298 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:17:19,298 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:17:34,658 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 10:17:34,658 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-08-23 10:17:37,408 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:17:37,424 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:17:37,424 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:17:37,424 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:17:41,079 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 10:17:41,079 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2018-08-23 10:18:14,869 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:18:14,994 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:18:14,994 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:18:15,010 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:18:55,014 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:18:55,014 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:18:55,014 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:18:55,030 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:19:28,933 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:19:28,933 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:19:28,933 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:19:28,949 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:19:42,576 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 10:19:42,576 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-08-23 10:19:45,314 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:19:45,330 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:19:45,330 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:19:45,345 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:19:51,969 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 10:19:51,969 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2018-08-23 10:20:23,591 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:20:23,638 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:20:23,638 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:20:23,654 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:21:02,118 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 10:21:02,118 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-08-23 10:21:04,823 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:21:04,855 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:21:04,855 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:21:04,855 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-23 10:21:11,993 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Projects\LiveProjects(Architect)\DataDrivenFramework
+2018-08-23 10:21:11,993 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2018-08-23 10:21:41,283 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:21:41,299 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\main\resources
+2018-08-23 10:21:41,315 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-23 10:21:41,346 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

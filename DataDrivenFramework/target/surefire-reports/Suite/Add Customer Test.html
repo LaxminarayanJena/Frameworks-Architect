@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Add Customer Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 23 10:21:35 IST 2018</td>
+<td>Started on:</td><td>Thu Aug 23 10:30:30 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2747 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2207 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,66 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.ddf.testcases.AddCustomerTest.AddCustomer()'><b>AddCustomer</b><br>Test class: com.ddf.testcases.AddCustomerTest<br>Parameters: {alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram}</td>
-<td></td>
-<td>2</td>
-<td>com.ddf.testcases.AddCustomerTest@c88a337</td></tr>
-<tr>
-<td title='com.ddf.testcases.AddCustomerTest.AddCustomer()'><b>AddCustomer</b><br>Test class: com.ddf.testcases.AddCustomerTest<br>Parameters: {alerttext=Customer added successfully, postcode=44554.0, lastname=df, firstname=sam}</td>
+<td title='com.ddf.testcases.AddCustomerTest.AddCustomer()'><b>AddCustomer</b><br>Test class: com.ddf.testcases.AddCustomerTest<br>Parameters: {RunMode=Y, alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram}</td>
 <td></td>
 <td>0</td>
-<td>com.ddf.testcases.AddCustomerTest@c88a337</td></tr>
+<td>com.ddf.testcases.AddCustomerTest@485966cc</td></tr>
+<tr>
+<td title='com.ddf.testcases.AddCustomerTest.AddCustomer()'><b>AddCustomer</b><br>Test class: com.ddf.testcases.AddCustomerTest<br>Parameters: {RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=prasad, firstname=sam}</td>
+<td></td>
+<td>0</td>
+<td>com.ddf.testcases.AddCustomerTest@485966cc</td></tr>
+<tr>
+<td title='com.ddf.testcases.AddCustomerTest.AddCustomer()'><b>AddCustomer</b><br>Test class: com.ddf.testcases.AddCustomerTest<br>Parameters: {RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=patel, firstname=gopal}</td>
+<td></td>
+<td>0</td>
+<td>com.ddf.testcases.AddCustomerTest@485966cc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ddf.testcases.AddCustomerTest.AddCustomer()'><b>AddCustomer</b><br>Test class: com.ddf.testcases.AddCustomerTest<br>Parameters: {RunMode=N, alerttext=Customer added successfully, postcode=44554.0, lastname=mishra, firstname=hari}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test case as the Run mode for data set is NO
+	at com.ddf.testcases.AddCustomerTest.AddCustomer(AddCustomerTest.java:23)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace67620673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace67620673'><pre>org.testng.SkipException: Skipping the test case as the Run mode for data set is NO
+	at com.ddf.testcases.AddCustomerTest.AddCustomer(AddCustomerTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.ddf.testcases.AddCustomerTest@485966cc</td></tr>
 </table><p>
 </body>
 </html>

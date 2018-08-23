@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods,  1 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ddf.testcases.AddCustomerTest" hash-for-method="AddCustomer({RunMode=N, alerttext=Customer added successfully, postcode=44554.0, lastname=mishra, firstname=hari...)">AddCustomer({RunMode=N, alerttext=Customer added successfully, postcode=44554.0, lastname=mishra, firstname=hari...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +116,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ddf.testcases.AddCustomerTest" hash-for-method="AddCustomer({alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram})">AddCustomer({alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ddf.testcases.AddCustomerTest" hash-for-method="AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=patel, firstname=gopal...)">AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=patel, firstname=gopal...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ddf.testcases.AddCustomerTest" hash-for-method="AddCustomer({alerttext=Customer added successfully, postcode=44554.0, lastname=df, firstname=sam})">AddCustomer({alerttext=Customer added successfully, postcode=44554.0, lastname=df, firstname=sam})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ddf.testcases.AddCustomerTest" hash-for-method="AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=prasad, firstname=sam})">AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=prasad, firstname=sam})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.ddf.testcases.AddCustomerTest" hash-for-method="AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram})">AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,6 +151,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ddf.testcases.AddCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCustomer({RunMode=N, alerttext=Customer added successfully, postcode=44554.0, lastname=mishra, firstname=hari...)">
+                  </a> <!-- AddCustomer({RunMode=N, alerttext=Customer added successfully, postcode=44554.0, lastname=mishra, firstname=hari...) -->
+                  <span class="method-name">AddCustomer</span>
+                  <span class="parameters">({RunMode=N, alerttext=Customer added successfully, postcode=44554.0, lastname=mishra, firstname=hari})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test case as the Run mode for data set is NO
+	at com.ddf.testcases.AddCustomerTest.AddCustomer(AddCustomerTest.java:23)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -140,18 +179,41 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="AddCustomer({alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram})">
-                  </a> <!-- AddCustomer({alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram}) -->
+                  <a name="AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=patel, firstname=gopal...)">
+                  </a> <!-- AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=patel, firstname=gopal...) -->
                   <span class="method-name">AddCustomer</span>
-                  <span class="parameters">({alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram})</span>
+                  <span class="parameters">({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=patel, firstname=gopal})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="AddCustomer({alerttext=Customer added successfully, postcode=44554.0, lastname=df, firstname=sam})">
-                  </a> <!-- AddCustomer({alerttext=Customer added successfully, postcode=44554.0, lastname=df, firstname=sam}) -->
+                  <a name="AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=prasad, firstname=sam})">
+                  </a> <!-- AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=prasad, firstname=sam}) -->
                   <span class="method-name">AddCustomer</span>
-                  <span class="parameters">({alerttext=Customer added successfully, postcode=44554.0, lastname=df, firstname=sam})</span>
+                  <span class="parameters">({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=prasad, firstname=sam})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram})">
+                  </a> <!-- AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram}) -->
+                  <span class="method-name">AddCustomer</span>
+                  <span class="parameters">({RunMode=Y, alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ddf.testcases.BankMangerLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankMangerLogin">
+                  </a> <!-- bankMangerLogin -->
+                  <span class="method-name">bankMangerLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -168,21 +230,6 @@
                   </a> <!-- OpenAccount({Currency=Rupee, customer=ram dash}) -->
                   <span class="method-name">OpenAccount</span>
                   <span class="parameters">({Currency=Rupee, customer=ram dash})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.ddf.testcases.BankMangerLogin</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="bankMangerLogin">
-                  </a> <!-- bankMangerLogin -->
-                  <span class="method-name">bankMangerLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -260,28 +307,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AddCustomer')
 data.setCell(0, 2, 'com.ddf.testcases.AddCustomerTest')
-data.setCell(0, 3, 2109);
+data.setCell(0, 3, 997);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'OpenAccount')
-data.setCell(1, 2, 'com.ddf.testcases.OpenAccountTest')
-data.setCell(1, 3, 769);
+data.setCell(1, 1, 'bankMangerLogin')
+data.setCell(1, 2, 'com.ddf.testcases.BankMangerLogin')
+data.setCell(1, 3, 638);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'bankMangerLogin')
-data.setCell(2, 2, 'com.ddf.testcases.BankMangerLogin')
-data.setCell(2, 3, 700);
+data.setCell(2, 1, 'OpenAccount')
+data.setCell(2, 2, 'com.ddf.testcases.OpenAccountTest')
+data.setCell(2, 3, 612);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'AddCustomer')
 data.setCell(3, 2, 'com.ddf.testcases.AddCustomerTest')
-data.setCell(3, 3, 453);
+data.setCell(3, 3, 448);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AddCustomer')
+data.setCell(4, 2, 'com.ddf.testcases.AddCustomerTest')
+data.setCell(4, 3, 421);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'AddCustomer')
+data.setCell(5, 2, 'com.ddf.testcases.AddCustomerTest')
+data.setCell(5, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -323,29 +378,37 @@ return data;
               <div class="chronological-class-name">com.ddf.testcases.BankMangerLogin</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">bankMangerLogin</span>
-                <span class="method-start">9349 ms</span>
+                <span class="method-start">10012 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ddf.testcases.AddCustomerTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">AddCustomer({alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram})</span>
-                <span class="method-start">10411 ms</span>
+                <span class="method-name">AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram})</span>
+                <span class="method-start">11101 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">AddCustomer({alerttext=Customer added successfully, postcode=44554.0, lastname=df, firstname=sam})</span>
-                <span class="method-start">12603 ms</span>
+                <span class="method-name">AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=prasad, firstname=sam})</span>
+                <span class="method-start">12181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddCustomer({RunMode=N, alerttext=Customer added successfully, postcode=44554.0, lastname=mishra, firstname=hari...)</span>
+                <span class="method-start">12711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddCustomer({RunMode=Y, alerttext=Customer added successfully, postcode=44554.0, lastname=patel, firstname=gopal...)</span>
+                <span class="method-start">12782 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ddf.testcases.OpenAccountTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">OpenAccount({Currency=Rupee, customer=ram dash})</span>
-                <span class="method-start">13150 ms</span>
+                <span class="method-start">13319 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14005 ms</span>
+                <span class="method-start">14091 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
