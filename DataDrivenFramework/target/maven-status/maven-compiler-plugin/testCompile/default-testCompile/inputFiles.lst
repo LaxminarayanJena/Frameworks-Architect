@@ -1,10 +1,13 @@
-D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\base\TestBase.java
+D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\utilities\MonitoringMail.java
 D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\testcases\AddCustomerTest.java
-D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\rough\TestProperties.java
-D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\testcases\OpenAccountTest.java
 D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\utilities\ExcelReader.java
 D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\utilities\ExtentManger.java
 D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\rough\TestTimeStamp.java
+D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\utilities\TestUtil.java
+D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\rough\TestHostAdd.java
+D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\base\TestBase.java
+D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\rough\TestProperties.java
+D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\testcases\OpenAccountTest.java
+D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\utilities\TestConfig.java
 D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\testcases\BankMangerLogin.java
 D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\listeners\CustomListeners.java
-D:\Projects\LiveProjects(Architect)\DataDrivenFramework\src\test\java\com\ddf\utilities\TestUtil.java

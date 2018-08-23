@@ -15,7 +15,7 @@ public class BankMangerLogin extends TestBase {
 	public void bankMangerLogin() throws IOException
 	{
 		
-		//verifyEquals("abc", "xyz");
+		verifyEquals("abc", "xyz");
 		driver.findElement(By.xpath(OR.getProperty("bmlbtn"))).click();		
 	
 		Assert.assertTrue("Login not sucessfull" ,isElementPresent(By.xpath(OR.getProperty("addCustBtn"))));

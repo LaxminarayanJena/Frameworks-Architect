@@ -2,16 +2,40 @@
 <testng-results skipped="1" failed="0" ignored="0" total="6" passed="5">
   <reporter-output>
     <line>
+      <![CDATA[<br>Verification failure : expected [abc] but found [xyz]<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Aug_23_15_06_20_IST_2018.jpg><img src=Thu_Aug_23_15_06_20_IST_2018.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
       <![CDATA[Login sucessfully executed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="4081" started-at="2018-08-23T05:00:29Z" finished-at="2018-08-23T05:00:33Z">
+  <suite name="Suite" duration-ms="5895" started-at="2018-08-23T09:36:19Z" finished-at="2018-08-23T09:36:25Z">
     <groups>
     </groups>
-    <test name="Bank Manager Test" duration-ms="978" started-at="2018-08-23T05:00:29Z" finished-at="2018-08-23T05:00:30Z">
+    <test name="Bank Manager Test" duration-ms="1338" started-at="2018-08-23T09:36:19Z" finished-at="2018-08-23T09:36:21Z">
       <class name="com.ddf.testcases.BankMangerLogin">
-        <test-method status="PASS" signature="bankMangerLogin()[pri:0, instance:com.ddf.testcases.BankMangerLogin@a530d0a]" name="bankMangerLogin" duration-ms="638" started-at="2018-08-23T05:00:29Z" finished-at="2018-08-23T05:00:29Z">
+        <test-method status="PASS" signature="bankMangerLogin()[pri:0, instance:com.ddf.testcases.BankMangerLogin@618425b5]" name="bankMangerLogin" duration-ms="806" started-at="2018-08-23T09:36:20Z" finished-at="2018-08-23T09:36:20Z">
           <reporter-output>
+            <line>
+              <![CDATA[<br>Verification failure : expected [abc] but found [xyz]<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Aug_23_15_06_20_IST_2018.jpg><img src=Thu_Aug_23_15_06_20_IST_2018.jpg height=200 width=200></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
             <line>
               <![CDATA[Login sucessfully executed]]>
             </line>
@@ -19,9 +43,9 @@
         </test-method> <!-- bankMangerLogin -->
       </class> <!-- com.ddf.testcases.BankMangerLogin -->
     </test> <!-- Bank Manager Test -->
-    <test name="Add Customer Test" duration-ms="2207" started-at="2018-08-23T05:00:30Z" finished-at="2018-08-23T05:00:32Z">
+    <test name="Add Customer Test" duration-ms="3619" started-at="2018-08-23T09:36:21Z" finished-at="2018-08-23T09:36:25Z">
       <class name="com.ddf.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="AddCustomer(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.AddCustomerTest@485966cc]" name="AddCustomer" duration-ms="997" started-at="2018-08-23T05:00:30Z" data-provider="dp" finished-at="2018-08-23T05:00:31Z">
+        <test-method status="PASS" signature="AddCustomer(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.AddCustomerTest@2805d709]" name="AddCustomer" duration-ms="2252" started-at="2018-08-23T09:36:21Z" data-provider="dp" finished-at="2018-08-23T09:36:23Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCustomer -->
-        <test-method status="PASS" signature="AddCustomer(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.AddCustomerTest@485966cc]" name="AddCustomer" duration-ms="448" started-at="2018-08-23T05:00:31Z" data-provider="dp" finished-at="2018-08-23T05:00:31Z">
+        <test-method status="PASS" signature="AddCustomer(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.AddCustomerTest@2805d709]" name="AddCustomer" duration-ms="542" started-at="2018-08-23T09:36:23Z" data-provider="dp" finished-at="2018-08-23T09:36:24Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCustomer -->
-        <test-method status="SKIP" signature="AddCustomer(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.AddCustomerTest@485966cc]" name="AddCustomer" duration-ms="0" started-at="2018-08-23T05:00:31Z" data-provider="dp" finished-at="2018-08-23T05:00:31Z">
+        <test-method status="SKIP" signature="AddCustomer(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.AddCustomerTest@2805d709]" name="AddCustomer" duration-ms="1" started-at="2018-08-23T09:36:24Z" data-provider="dp" finished-at="2018-08-23T09:36:24Z">
           <params>
             <param index="0">
               <value>
@@ -92,7 +116,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCustomer -->
-        <test-method status="PASS" signature="AddCustomer(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.AddCustomerTest@485966cc]" name="AddCustomer" duration-ms="421" started-at="2018-08-23T05:00:31Z" data-provider="dp" finished-at="2018-08-23T05:00:32Z">
+        <test-method status="PASS" signature="AddCustomer(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.AddCustomerTest@2805d709]" name="AddCustomer" duration-ms="392" started-at="2018-08-23T09:36:24Z" data-provider="dp" finished-at="2018-08-23T09:36:24Z">
           <params>
             <param index="0">
               <value>
@@ -105,13 +129,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
         </test-method> <!-- AddCustomer -->
       </class> <!-- com.ddf.testcases.AddCustomerTest -->
     </test> <!-- Add Customer Test -->
-    <test name="Open Account Test" duration-ms="745" started-at="2018-08-23T05:00:32Z" finished-at="2018-08-23T05:00:33Z">
+    <test name="Open Account Test" duration-ms="828" started-at="2018-08-23T09:36:25Z" finished-at="2018-08-23T09:36:25Z">
       <class name="com.ddf.testcases.OpenAccountTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="setUp" is-config="true" duration-ms="9981" started-at="2018-08-23T05:00:19Z" finished-at="2018-08-23T05:00:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ddf.testcases.OpenAccountTest@f0da945]" name="setUp" is-config="true" duration-ms="20025" started-at="2018-08-23T09:35:59Z" finished-at="2018-08-23T09:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="OpenAccount(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="OpenAccount" duration-ms="612" started-at="2018-08-23T05:00:32Z" data-provider="dp" finished-at="2018-08-23T05:00:33Z">
+        <test-method status="PASS" signature="OpenAccount(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.OpenAccountTest@f0da945]" name="OpenAccount" duration-ms="763" started-at="2018-08-23T09:36:25Z" data-provider="dp" finished-at="2018-08-23T09:36:25Z">
           <params>
             <param index="0">
               <value>
@@ -122,7 +146,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAccount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="tearDown" is-config="true" duration-ms="1157" started-at="2018-08-23T05:00:33Z" finished-at="2018-08-23T05:00:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ddf.testcases.OpenAccountTest@f0da945]" name="tearDown" is-config="true" duration-ms="2862" started-at="2018-08-23T09:36:25Z" finished-at="2018-08-23T09:36:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

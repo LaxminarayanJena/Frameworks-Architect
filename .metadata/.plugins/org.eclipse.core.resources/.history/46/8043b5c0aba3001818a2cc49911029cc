@@ -1,8 +1,0 @@
-bmlbtn=//div[1]/div[2]/button
-addCustBtn=//div[2]/div/div[1]/button[1]
-firstName=//input[@placeholder='First Name']
-lastName=//input[@placeholder='Last Name']
-postCode=//input[@placeholder='Post Code']
-addcust=//button[@type='submit']
-
-//OpenAccountTest

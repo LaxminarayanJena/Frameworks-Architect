@@ -52,6 +52,7 @@ public class TestBase {
 	public ExtentReports rep= ExtentManger.getInstance();
 	public static ExtentTest test;
 	public static WebElement dropdown;
+	public static String browser;
 	
 	
 	
@@ -68,7 +69,17 @@ public class TestBase {
 		log.debug("Config file loaded");
 		
 	}
-				
+		
+		if(System.getenv("browser")!=null && !System.getenv("browser").isEmpty()){
+			
+			browser = System.getenv("browser");
+		}else{
+			
+			browser = config.getProperty("browser");
+			
+		}
+		
+		config.setProperty("browser", browser);		
 		
 		if(config.getProperty("browser").equals("chrome"))
 		{

@@ -35,7 +35,9 @@
 <fullyQualifiedTypeName name="org.testng.Assert"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
-<fullyQualifiedTypeName name="org.testng.SkipException"/>
 <fullyQualifiedTypeName name="com.relevantcodes.extentreports.LogStatus"/>
 <fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="org.testng.SkipException"/>
+<fullyQualifiedTypeName name="com.ddf.utilities.MonitoringMail"/>
+<fullyQualifiedTypeName name="com.ddf.utilities.TestConfig"/>
 </qualifiedTypeNameHistroy>

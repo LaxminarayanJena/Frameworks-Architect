@@ -1,10 +1,15 @@
+com\ddf\utilities\TestConfig.class
+com\ddf\base\TestBase.class
+com\ddf\utilities\MonitoringMail.class
+com\ddf\utilities\TestUtil.class
 com\ddf\rough\TestProperties.class
 com\ddf\rough\TestTimeStamp.class
 com\ddf\testcases\OpenAccountTest.class
 com\ddf\utilities\ExtentManger.class
-com\ddf\base\TestBase.class
-com\ddf\utilities\TestUtil.class
+com\ddf\utilities\MonitoringMail$1.class
 com\ddf\utilities\ExcelReader.class
+com\ddf\utilities\MonitoringMail$SMTPAuthenticator.class
 com\ddf\listeners\CustomListeners.class
+com\ddf\rough\TestHostAdd.class
 com\ddf\testcases\AddCustomerTest.class
 com\ddf\testcases\BankMangerLogin.class
