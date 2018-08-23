@@ -5,12 +5,12 @@
       <![CDATA[Login sucessfully executed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="3798" started-at="2018-08-22T06:05:01Z" finished-at="2018-08-22T06:05:05Z">
+  <suite name="Suite" duration-ms="4654" started-at="2018-08-23T04:51:34Z" finished-at="2018-08-23T04:51:39Z">
     <groups>
     </groups>
-    <test name="Bank Manager Test" duration-ms="1329" started-at="2018-08-22T06:05:01Z" finished-at="2018-08-22T06:05:02Z">
+    <test name="Bank Manager Test" duration-ms="1019" started-at="2018-08-23T04:51:34Z" finished-at="2018-08-23T04:51:35Z">
       <class name="com.ddf.testcases.BankMangerLogin">
-        <test-method status="PASS" signature="bankMangerLogin()[pri:0, instance:com.ddf.testcases.BankMangerLogin@a530d0a]" name="bankMangerLogin" duration-ms="995" started-at="2018-08-22T06:05:01Z" finished-at="2018-08-22T06:05:02Z">
+        <test-method status="PASS" signature="bankMangerLogin()[pri:0, instance:com.ddf.testcases.BankMangerLogin@a530d0a]" name="bankMangerLogin" duration-ms="700" started-at="2018-08-23T04:51:34Z" finished-at="2018-08-23T04:51:35Z">
           <reporter-output>
             <line>
               <![CDATA[Login sucessfully executed]]>
@@ -19,54 +19,24 @@
         </test-method> <!-- bankMangerLogin -->
       </class> <!-- com.ddf.testcases.BankMangerLogin -->
     </test> <!-- Bank Manager Test -->
-    <test name="Add Customer Test" duration-ms="1632" started-at="2018-08-22T06:05:02Z" finished-at="2018-08-22T06:05:04Z">
+    <test name="Add Customer Test" duration-ms="2747" started-at="2018-08-23T04:51:35Z" finished-at="2018-08-23T04:51:38Z">
       <class name="com.ddf.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.AddCustomerTest@c88a337]" name="AddCustomer" duration-ms="970" started-at="2018-08-22T06:05:02Z" data-provider="dp" finished-at="2018-08-22T06:05:03Z">
+        <test-method status="PASS" signature="AddCustomer(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.AddCustomerTest@c88a337]" name="AddCustomer" duration-ms="2109" started-at="2018-08-23T04:51:35Z" data-provider="dp" finished-at="2018-08-23T04:51:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ram]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dash]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[6789.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Customer added successfully]]>
+                <![CDATA[{alerttext=Customer added successfully, postcode=6789.0, lastname=dash, firstname=ram}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCustomer -->
-        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.AddCustomerTest@c88a337]" name="AddCustomer" duration-ms="473" started-at="2018-08-22T06:05:03Z" data-provider="dp" finished-at="2018-08-22T06:05:04Z">
+        <test-method status="PASS" signature="AddCustomer(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.AddCustomerTest@c88a337]" name="AddCustomer" duration-ms="453" started-at="2018-08-23T04:51:37Z" data-provider="dp" finished-at="2018-08-23T04:51:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[df]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[44554.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Customer added successfully]]>
+                <![CDATA[{alerttext=Customer added successfully, postcode=44554.0, lastname=df, firstname=sam}]]>
               </value>
             </param>
           </params>
@@ -75,29 +45,24 @@
         </test-method> <!-- AddCustomer -->
       </class> <!-- com.ddf.testcases.AddCustomerTest -->
     </test> <!-- Add Customer Test -->
-    <test name="Open Account Test" duration-ms="701" started-at="2018-08-22T06:05:04Z" finished-at="2018-08-22T06:05:05Z">
+    <test name="Open Account Test" duration-ms="836" started-at="2018-08-23T04:51:38Z" finished-at="2018-08-23T04:51:39Z">
       <class name="com.ddf.testcases.OpenAccountTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="setUp" is-config="true" duration-ms="9648" started-at="2018-08-22T06:04:51Z" finished-at="2018-08-22T06:05:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="setUp" is-config="true" duration-ms="9330" started-at="2018-08-23T04:51:25Z" finished-at="2018-08-23T04:51:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="OpenAccount(java.lang.String, java.lang.String)[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="OpenAccount" duration-ms="622" started-at="2018-08-22T06:05:04Z" data-provider="dp" finished-at="2018-08-22T06:05:04Z">
+        <test-method status="PASS" signature="OpenAccount(java.util.Hashtable)[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="OpenAccount" duration-ms="769" started-at="2018-08-23T04:51:38Z" data-provider="dp" finished-at="2018-08-23T04:51:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ram dash]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rupee]]>
+                <![CDATA[{Currency=Rupee, customer=ram dash}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenAccount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="tearDown" is-config="true" duration-ms="1080" started-at="2018-08-22T06:05:05Z" finished-at="2018-08-22T06:05:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ddf.testcases.OpenAccountTest@5b03b9fe]" name="tearDown" is-config="true" duration-ms="1200" started-at="2018-08-23T04:51:39Z" finished-at="2018-08-23T04:51:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

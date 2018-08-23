@@ -1,5 +1,7 @@
 package com.ddf.testcases;
 
+import java.util.Hashtable;
+
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
@@ -8,9 +10,10 @@ import com.ddf.utilities.TestUtil;
 
 public class OpenAccountTest extends TestBase {
 	
-	@Test(dataProviderClass=TestUtil.class,dataProvider="dp")
-	public void OpenAccount(String customer,String currency) throws InterruptedException
-	{
+
+	
+	@Test(dataProviderClass = TestUtil.class, dataProvider = "dp")
+	public void OpenAccount(Hashtable<String,String> data) throws InterruptedException {
 		 
 		if(!(TestUtil.isTestRunnable("OpenAccountTest", excel)))
 		{
@@ -19,8 +22,8 @@ public class OpenAccountTest extends TestBase {
 		
 		
 		click("OpenAccountTest");	
-		select("customerName",customer);
-		select("currencyname",currency);
+		select("customerName",data.get("customer"));
+		select("currencyname",data.get("Currency"));
 		click("process");
 	
 	}
