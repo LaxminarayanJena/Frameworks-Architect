@@ -1,0 +1,45 @@
+version: '2'
+
+services:
+    DockerGrid:
+        image: selenium/hub:3.4.0
+        container_name: DockerGrid
+        privileged: true
+        ports:
+            - 4444:4444
+        environment:
+            - GRID_TIMEOUT=240000
+            - GRID_BROWSER_TIMEOUT=240000
+        networks:
+            - DockerGrid_grid_internal
+
+    nodechrome:
+        image: selenium/node-chrome-debug:3.4.0
+        privileged: true
+        depends_on:
+            - DockerGrid
+        ports:
+            - 5900
+        environment:
+            - no_proxy=localhost
+            - HUB_PORT_4444_TCP_ADDR=DockerGrid
+            - HUB_PORT_4444_TCP_PORT=4444
+        networks:
+            - DockerGrid_grid_internal
+
+    nodefirefox:
+        image: selenium/node-firefox-debug:3.4.0
+        privileged: true
+        depends_on:
+            - DockerGrid
+        ports:
+            - 5901  
+        environment:
+            - no_proxy=localhost
+            - HUB_PORT_4444_TCP_ADDR=DockerGrid
+            - HUB_PORT_4444_TCP_PORT=4444
+        networks:
+            - DockerGrid_grid_internal
+
+networks:
+    DockerGrid_grid_internal:

@@ -1,0 +1,23 @@
+Starting hub
+docker run -d -P --name selenium-hub selenium/hub:3.4.0
+
+docker images
+
+Starting chrome node
+docker run -d -P --link selenium-hub:hub selenium/node-chrome-debug:3.4.0
+
+starting firefox node
+
+docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug:3.4.0
+
+
+----------------------------------------------
+Docker Compose
+
+Open window powershell and go to docker-compose.yml location
+
+docker-compose up -d
+
+
+
+
