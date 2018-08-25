@@ -40,4 +40,5 @@
 <fullyQualifiedTypeName name="org.testng.SkipException"/>
 <fullyQualifiedTypeName name="com.ddf.utilities.MonitoringMail"/>
 <fullyQualifiedTypeName name="com.ddf.utilities.TestConfig"/>
+<fullyQualifiedTypeName name="org.testng.ISuiteListener"/>
 </qualifiedTypeNameHistroy>
