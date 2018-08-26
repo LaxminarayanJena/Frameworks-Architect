@@ -41,4 +41,6 @@
 <fullyQualifiedTypeName name="com.ddf.utilities.MonitoringMail"/>
 <fullyQualifiedTypeName name="com.ddf.utilities.TestConfig"/>
 <fullyQualifiedTypeName name="org.testng.ISuiteListener"/>
+<fullyQualifiedTypeName name="utilities.JsonReader"/>
+<fullyQualifiedTypeName name="utilities.Constants"/>
 </qualifiedTypeNameHistroy>

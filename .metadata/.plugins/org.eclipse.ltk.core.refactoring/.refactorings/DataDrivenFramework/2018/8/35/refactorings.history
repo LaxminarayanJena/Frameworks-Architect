@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExcelReader.java&apos; to &apos;TestDataProject/src/test/java/utilities&apos;&#x0D;&#x0A;- Original project: &apos;DataDrivenFramework&apos;&#x0D;&#x0A;- Destination element: &apos;TestDataProject/src/test/java/utilities&apos;&#x0D;&#x0A;- Original element: &apos;com.ddf.utilities.ExcelReader.java&apos;" description="Copy compilation unit" destination="=TestDataProject/src\/test\/java&lt;utilities" element1="/src\/test\/java&lt;com.ddf.utilities{ExcelReader.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1535252542877" units="1" version="1.0"/>
+</session>
