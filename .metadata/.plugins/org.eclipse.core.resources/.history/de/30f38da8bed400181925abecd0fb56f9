@@ -1,0 +1,16 @@
+package rough;
+
+import utilities.ExcelReader;
+import utilities.TestUtil;
+
+public class CheckingRunModes {
+
+	public static void main(String[] args) {
+		
+		String suiteName= "BankManagerSuite";
+		boolean suiteRunmode=TestUtil.isSuiteRunnable(suiteName, new ExcelReader(System.getProperty("user.dir") +"\\src\\test\\resources\\testData\\suite.xlsx"));
+
+		System.out.println(suiteRunmode);
+	}
+
+}

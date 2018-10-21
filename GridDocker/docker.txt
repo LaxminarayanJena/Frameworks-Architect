@@ -19,5 +19,7 @@ Open window powershell and go to docker-compose.yml location
 docker-compose up -d
 
 
+vnc viewer password-secret
+
 
 

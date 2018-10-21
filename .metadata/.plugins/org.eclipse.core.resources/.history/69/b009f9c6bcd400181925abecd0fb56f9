@@ -1,0 +1,12 @@
+package utilities;
+
+public class Constants {
+	
+	public static String DATA_SHEET="TestData";	
+	public static String SUITE_SHEET="Sheet";	
+	public static String SUITENAME_COL = "SuiteName";
+	public static String RUNMODE_COL = "Runmode";
+	public static String RUNMODE_Y = "Y";
+	public static String RUNMODE_N = "N";
+
+}

@@ -1,0 +1,12 @@
+package rough;
+
+public class CheckingRunModes {
+
+	public static void main(String[] args) {
+		
+		String suiteName= "BankManagerSuite";
+		
+
+	}
+
+}

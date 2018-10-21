@@ -1,26 +1,30 @@
-package utilities;
 
+package utilities;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Calendar;
+import java.util.HashMap;
 
-import org.apache.poi.hssf.usermodel.HSSFCellStyle;
 import org.apache.poi.hssf.usermodel.HSSFDateUtil;
+import org.apache.poi.hssf.util.CellReference;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFCreationHelper;
 import org.apache.poi.xssf.usermodel.XSSFFont;
-import org.apache.poi.xssf.usermodel.XSSFHyperlink;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
+/**
+ * Created by ljena on 8/05/2018.
+ */
 
 public class ExcelReader {
 	
@@ -133,6 +137,7 @@ public class ExcelReader {
 	
 	
 	// returns the data from a cell
+	@SuppressWarnings("deprecation")
 	public String getCellData(String sheetName,int colNum,int rowNum){
 		try{
 			if(rowNum <=0)
@@ -187,6 +192,67 @@ public class ExcelReader {
 			return "row "+rowNum+" or column "+colNum +" does not exist  in xls";
 		}
 	}
+	
+	
+	
+	
+	
+	// returns true if data is set successfully else false
+		public boolean setCellData(String sheetName,int colNum,int rowNum, String data){
+			
+				try{
+				fis = new FileInputStream(path); 
+				workbook = new XSSFWorkbook(fis);
+
+				if(rowNum<=0)
+					return false;
+				
+				int index = workbook.getSheetIndex(sheetName);
+				
+				if(index==-1)
+					return false;
+				
+				
+				sheet = workbook.getSheetAt(index);
+				
+
+				row=sheet.getRow(0);
+				for(int i=0;i<row.getLastCellNum();i++){
+					//System.out.println(row.getCell(i).getStringCellValue().trim());
+					if(row.getCell(i).getStringCellValue().trim().equals(colNum))
+						colNum=i;
+				}
+				if(colNum==-1)
+					return false;
+
+				sheet.autoSizeColumn(colNum); 
+				row = sheet.getRow(rowNum-1);
+				if (row == null)
+					row = sheet.createRow(rowNum-1);
+				
+				cell = row.getCell(colNum);	
+				if (cell == null)
+			        cell = row.createCell(colNum);
+
+			    
+			    cell.setCellValue(data);
+
+			    fileOut = new FileOutputStream(path);
+
+				workbook.write(fileOut);
+
+			    fileOut.close();	
+
+				}
+				catch(Exception e){
+					e.printStackTrace();
+					return false;
+				}
+				return true;
+			}
+			
+	
+	
 	
 	
 	
@@ -294,9 +360,8 @@ public class ExcelReader {
 	    hlink_style.setFont(hlink_font);
 	    //hlink_style.setWrapText(true);
 
-	    XSSFHyperlink link = createHelper.createHyperlink(XSSFHyperlink.LINK_FILE);
-	    link.setAddress(url);
-	    cell.setHyperlink(link);
+	   
+	    
 	    cell.setCellStyle(hlink_style);
 	      
 	    fileOut = new FileOutputStream(path);
@@ -361,8 +426,7 @@ public class ExcelReader {
 			
 		XSSFCellStyle style = workbook.createCellStyle();
 		style.setFillForegroundColor(HSSFColor.GREY_40_PERCENT.index);
-		style.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
-		
+	
 		sheet=workbook.getSheetAt(index);
 		
 		row = sheet.getRow(0);
@@ -405,7 +469,7 @@ public class ExcelReader {
 		XSSFCellStyle style = workbook.createCellStyle();
 		style.setFillForegroundColor(HSSFColor.GREY_40_PERCENT.index);
 		XSSFCreationHelper createHelper = workbook.getCreationHelper();
-		style.setFillPattern(HSSFCellStyle.NO_FILL);
+		
 		
 	    
 	
@@ -466,6 +530,59 @@ public class ExcelReader {
 	}
 	
 	
+	
+	// returns row no,colno on basis of text in a sheet	
+		public  HashMap<String, Integer>  FindPosition(String sheetName,String toFind){
+			// check if sheet exists
+			HashMap<String, Integer> mapResult= new HashMap<String, Integer>(); 
+			CellReference cellRef = null;
+			int colno = 0;
+			int rowno=0;
+			DataFormatter formatter = new DataFormatter();
+			sheet = workbook.getSheet(sheetName);
+			for (Row row : sheet) {
+			    for (Cell cell : row) {
+			         cellRef = new CellReference(row.getRowNum(), cell.getColumnIndex());
+                     String text = formatter.formatCellValue(cell);
+			       
+			        if (toFind.equals(text)) {
+			        	 rowno=row.getRowNum();
+			        	 colno=cell.getColumnIndex();
+			        	//System.out.println(rowno);
+			        	//System.out.println(colno);
+			        	 mapResult.put("rowno1", rowno);
+			        	 mapResult.put("colno1", colno);
+			           
+			        }
+			        // is it a partial match?
+			        else if (text.contains(toFind)) {
+			           
+			        }
+			    }
+			}
+			return mapResult;											
+			
+		}
+	
+	
+		// returns number of rows in SpecificColumnin a sheet	
+		public int getRowCountofSpecificColumn(String sheetName ,int colno){
+			// check if sheet exists
+			int rowIndex = 0;
+			sheet = workbook.getSheet(sheetName);
+			for (int rowNum = sheet.getLastRowNum(); rowNum >= 0; rowNum--) {
+			    final Row row = sheet.getRow(rowNum);
+			    if (row != null && row.getCell(colno) != null) {
+			         rowIndex = rowNum;
+			        break;
+			    }
+			}
+			return rowIndex;
+			
+			
+		}
+	
+	
 	//String sheetName, String testCaseName,String keyword ,String URL,String message
 	public boolean addHyperLink(String sheetName,String screenShotColName,String testCaseName,int index,String url,String message){
 		
@@ -497,7 +614,15 @@ public class ExcelReader {
 		return -1;
 		
 	}
+
+	
+	
+	
+
 		
+	
+	
+	
 	
 	// to run this on stand alone
 	public static void main(String arg[]) throws IOException{
@@ -506,9 +631,9 @@ public class ExcelReader {
 		ExcelReader datatable = null;
 		
 
-			 datatable = new ExcelReader("C:\\CM3.0\\app\\test\\Framework\\AutomationBvt\\src\\config\\xlfiles\\Controller.xlsx");
-				for(int col=0 ;col< datatable.getColumnCount("TC5"); col++){
-					System.out.println(datatable.getCellData("TC5", col, 1));
+			 datatable = new ExcelReader("C:\\ljena\\tmnas\\Framework\\Rapidsure.xlsx");
+				for(int col=0 ;col< datatable.getColumnCount("PolicyNo"); col++){
+					System.out.println(datatable.getCellData("PolicyNo", col, 1));
 				}
 	}
 	

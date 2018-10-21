@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="test Suite" duration-ms="52428" started-at="2018-08-25T08:12:13Z" finished-at="2018-08-25T08:13:05Z">
+  <suite name="test Suite" duration-ms="108505" started-at="2018-10-20T04:07:25Z" finished-at="2018-10-20T04:09:13Z">
     <groups>
     </groups>
-    <test name="TestChrome" duration-ms="45317" started-at="2018-08-25T08:12:13Z" finished-at="2018-08-25T08:12:58Z">
+    <test name="TestChrome" duration-ms="101499" started-at="2018-10-20T04:07:25Z" finished-at="2018-10-20T04:09:06Z">
       <class name="Gmail">
-        <test-method status="PASS" signature="GmailTest(java.lang.String)[pri:0, instance:Gmail@4b553d26]" name="GmailTest" duration-ms="45290" started-at="2018-08-25T08:12:13Z" finished-at="2018-08-25T08:12:58Z">
+        <test-method status="PASS" signature="GmailTest(java.lang.String)[pri:0, instance:Gmail@4b553d26]" name="GmailTest" duration-ms="101469" started-at="2018-10-20T04:07:25Z" finished-at="2018-10-20T04:09:06Z">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- GmailTest -->
       </class> <!-- Gmail -->
     </test> <!-- TestChrome -->
-    <test name="TestFirefox" duration-ms="52428" started-at="2018-08-25T08:12:13Z" finished-at="2018-08-25T08:13:05Z">
+    <test name="TestFirefox" duration-ms="108505" started-at="2018-10-20T04:07:25Z" finished-at="2018-10-20T04:09:13Z">
       <class name="Gmail">
-        <test-method status="PASS" signature="GmailTest(java.lang.String)[pri:0, instance:Gmail@4b1c1ea0]" name="GmailTest" duration-ms="52403" started-at="2018-08-25T08:12:13Z" finished-at="2018-08-25T08:13:05Z">
+        <test-method status="PASS" signature="GmailTest(java.lang.String)[pri:0, instance:Gmail@4b1c1ea0]" name="GmailTest" duration-ms="108472" started-at="2018-10-20T04:07:25Z" finished-at="2018-10-20T04:09:13Z">
           <params>
             <param index="0">
               <value>

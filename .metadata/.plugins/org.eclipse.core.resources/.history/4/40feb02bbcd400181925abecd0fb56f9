@@ -1,0 +1,23 @@
+package utilities;
+
+public class TestUtil {
+	
+	public static boolean isSuiteRunnable(String suiteName, ExcelReader excel)
+	{
+		
+		int rows=excel.getRowCount(Constants.SUITE_SHEET);
+		
+		for(int rowNum=2; rowNum<=rows; rowNum++)
+		{
+			excel.getCellData(sheetName, colName, rowNum)
+		}
+		
+	}
+	
+	public static boolean isTestRunnable(String testCaseName, ExcelReader excel)
+	{
+		
+	}
+	
+
+}
