@@ -1,0 +1,23 @@
+package com.dd.suite.customer.testcases;
+
+import java.util.Hashtable;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import utilities.Constants;
+import utilities.DataProviders;
+import utilities.DataUtil;
+import utilities.ExcelReader;
+
+public class AddCustomerTest {
+	
+	
+	@Test(dataProviderClass=DataProviders.class,dataProvider="banakManagerDP")
+	public void addCustomerTest(Hashtable<String,String> data)
+	{
+		
+	}
+	
+
+}

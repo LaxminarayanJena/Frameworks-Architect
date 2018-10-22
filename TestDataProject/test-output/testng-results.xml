@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="795" started-at="2018-10-22T05:11:34Z" finished-at="2018-10-22T05:11:35Z">
+  <suite name="BankManagerSuite (0)" duration-ms="344" started-at="2018-10-22T06:28:02Z" finished-at="2018-10-22T06:28:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="795" started-at="2018-10-22T05:11:34Z" finished-at="2018-10-22T05:11:35Z">
-      <class name="com.dd.suite.bankmanager.testcases.OpenAccountTest">
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.OpenAccountTest@4f933fd1]" name="addCustomerTest" duration-ms="15" started-at="2018-10-22T05:11:35Z" data-provider="getData" finished-at="2018-10-22T05:11:35Z">
+    <test name="AddCustomerTest" duration-ms="110" started-at="2018-10-22T06:28:02Z" finished-at="2018-10-22T06:28:02Z">
+      <class name="com.dd.suite.customer.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.customer.testcases.AddCustomerTest@3e6fa38a]" name="addCustomerTest" duration-ms="0" started-at="2018-10-22T06:28:02Z" data-provider="bankManagerDP" finished-at="2018-10-22T06:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postcode=6787.0, Runmode=N, lastname=jena, firstname=Amit}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.customer.testcases.AddCustomerTest@3e6fa38a]" name="addCustomerTest" duration-ms="0" started-at="2018-10-22T06:28:02Z" data-provider="bankManagerDP" finished-at="2018-10-22T06:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postcode=7878.0, Runmode=Y, lastname=Dash, firstname=Rahul}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.dd.suite.customer.testcases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+    <test name="OpenAccountTest" duration-ms="187" started-at="2018-10-22T06:28:02Z" finished-at="2018-10-22T06:28:03Z">
+      <class name="com.dd.suite.customer.testcases.OpenAccountTest">
+        <test-method status="PASS" signature="OpenAccountTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.customer.testcases.OpenAccountTest@91161c7]" name="OpenAccountTest" duration-ms="0" started-at="2018-10-22T06:28:03Z" data-provider="customerDP" finished-at="2018-10-22T06:28:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Dollar, Runmode=Y, customer=Amit Jena}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccountTest -->
+        <test-method status="PASS" signature="OpenAccountTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.customer.testcases.OpenAccountTest@91161c7]" name="OpenAccountTest" duration-ms="0" started-at="2018-10-22T06:28:03Z" data-provider="customerDP" finished-at="2018-10-22T06:28:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Dollar, Runmode=Y, customer=Amit Jena}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccountTest -->
+        <test-method status="PASS" signature="OpenAccountTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.customer.testcases.OpenAccountTest@91161c7]" name="OpenAccountTest" duration-ms="0" started-at="2018-10-22T06:28:03Z" data-provider="customerDP" finished-at="2018-10-22T06:28:03Z">
           <params>
             <param index="0">
               <value>
@@ -17,8 +65,53 @@
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- OpenAccountTest -->
+      </class> <!-- com.dd.suite.customer.testcases.OpenAccountTest -->
+    </test> <!-- OpenAccountTest -->
+  </suite> <!-- BankManagerSuite (0) -->
+  <suite name="BankManagerSuite" duration-ms="941" started-at="2018-10-22T06:28:01Z" finished-at="2018-10-22T06:28:02Z">
+    <groups>
+    </groups>
+    <test name="AddCustomerTest" duration-ms="785" started-at="2018-10-22T06:28:01Z" finished-at="2018-10-22T06:28:02Z">
+      <class name="com.dd.suite.bankmanager.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.AddCustomerTest@7c16905e]" name="addCustomerTest" duration-ms="8" started-at="2018-10-22T06:28:02Z" data-provider="bankManagerDP" finished-at="2018-10-22T06:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postcode=7878.0, Runmode=Y, lastname=Dash, firstname=Rahul}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.OpenAccountTest@4f933fd1]" name="addCustomerTest" duration-ms="7" started-at="2018-10-22T05:11:35Z" data-provider="getData" finished-at="2018-10-22T05:11:35Z">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.AddCustomerTest@7c16905e]" name="addCustomerTest" duration-ms="0" started-at="2018-10-22T06:28:02Z" data-provider="bankManagerDP" finished-at="2018-10-22T06:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postcode=6787.0, Runmode=N, lastname=jena, firstname=Amit}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.dd.suite.bankmanager.testcases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+    <test name="OpenAccountTest" duration-ms="109" started-at="2018-10-22T06:28:02Z" finished-at="2018-10-22T06:28:02Z">
+      <class name="com.dd.suite.bankmanager.testcases.OpenAccountTest">
+        <test-method status="PASS" signature="OpenAccountTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.OpenAccountTest@26653222]" name="OpenAccountTest" duration-ms="16" started-at="2018-10-22T06:28:02Z" data-provider="customerDP" finished-at="2018-10-22T06:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, Runmode=Y, customer=Rahul Dash}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccountTest -->
+        <test-method status="PASS" signature="OpenAccountTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.OpenAccountTest@26653222]" name="OpenAccountTest" duration-ms="0" started-at="2018-10-22T06:28:02Z" data-provider="customerDP" finished-at="2018-10-22T06:28:02Z">
           <params>
             <param index="0">
               <value>
@@ -28,8 +121,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.OpenAccountTest@4f933fd1]" name="addCustomerTest" duration-ms="10" started-at="2018-10-22T05:11:35Z" data-provider="getData" finished-at="2018-10-22T05:11:35Z">
+        </test-method> <!-- OpenAccountTest -->
+        <test-method status="PASS" signature="OpenAccountTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.OpenAccountTest@26653222]" name="OpenAccountTest" duration-ms="0" started-at="2018-10-22T06:28:02Z" data-provider="customerDP" finished-at="2018-10-22T06:28:02Z">
           <params>
             <param index="0">
               <value>
@@ -39,8 +132,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addCustomerTest -->
+        </test-method> <!-- OpenAccountTest -->
       </class> <!-- com.dd.suite.bankmanager.testcases.OpenAccountTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- OpenAccountTest -->
+  </suite> <!-- BankManagerSuite -->
+  <suite name="MasterSuite" duration-ms="0" started-at="2018-10-22T06:28:03Z" finished-at="2018-10-22T06:28:03Z">
+    <groups>
+    </groups>
+  </suite> <!-- MasterSuite -->
 </testng-results>
