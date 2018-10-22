@@ -1,0 +1,13 @@
+package utilities;
+
+import org.testng.annotations.DataProvider;
+
+public class TestParameterization {
+	
+	@DataProvider
+	public Object[][] getData()
+	{
+		
+	}
+
+}

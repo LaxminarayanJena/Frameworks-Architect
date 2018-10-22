@@ -13,9 +13,7 @@
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.NoSuchElementException"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="com.ddf.utilities.ExcelReader"/>
-<fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
@@ -36,11 +34,15 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="com.relevantcodes.extentreports.LogStatus"/>
-<fullyQualifiedTypeName name="java.util.Hashtable"/>
 <fullyQualifiedTypeName name="org.testng.SkipException"/>
 <fullyQualifiedTypeName name="com.ddf.utilities.MonitoringMail"/>
 <fullyQualifiedTypeName name="com.ddf.utilities.TestConfig"/>
 <fullyQualifiedTypeName name="org.testng.ISuiteListener"/>
 <fullyQualifiedTypeName name="utilities.JsonReader"/>
 <fullyQualifiedTypeName name="utilities.Constants"/>
+<fullyQualifiedTypeName name="utilities.TestUtil"/>
+<fullyQualifiedTypeName name="utilities.ExcelReader"/>
+<fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
 </qualifiedTypeNameHistroy>

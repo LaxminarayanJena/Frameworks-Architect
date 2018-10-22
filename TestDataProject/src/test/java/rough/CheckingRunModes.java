@@ -1,7 +1,7 @@
 package rough;
 
 import utilities.ExcelReader;
-import utilities.TestUtil;
+import utilities.DataUtil;
 
 public class CheckingRunModes {
 
@@ -9,14 +9,14 @@ public class CheckingRunModes {
 		
 		//String suiteName= "CustomerSuite";
 		String suiteName= "BankManagerSuite";
-		boolean suiteRunmode=TestUtil.isSuiteRunnable(suiteName, new ExcelReader(System.getProperty("user.dir") +"\\src\\test\\resources\\testData\\Suite.xlsx"));
+		boolean suiteRunmode=DataUtil.isSuiteRunnable(suiteName, new ExcelReader(System.getProperty("user.dir") +"\\src\\test\\resources\\testData\\Suite.xlsx"));
 
 		System.out.println(suiteRunmode);
 		
 		
 		String testCaseName= "AddCustomerTest";
 		//String TestCaseName= "OpenAccountTest";
-		boolean TestRunmode=TestUtil.isTestRunnable(testCaseName, new ExcelReader(System.getProperty("user.dir") +"\\src\\test\\resources\\testData\\" +suiteName+".xlsx"));
+		boolean TestRunmode=DataUtil.isTestRunnable(testCaseName, new ExcelReader(System.getProperty("user.dir") +"\\src\\test\\resources\\testData\\" +suiteName+".xlsx"));
 
 		System.out.println(TestRunmode);
 		

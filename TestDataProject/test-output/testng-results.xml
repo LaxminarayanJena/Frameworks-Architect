@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="795" started-at="2018-10-22T05:11:34Z" finished-at="2018-10-22T05:11:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="795" started-at="2018-10-22T05:11:34Z" finished-at="2018-10-22T05:11:35Z">
+      <class name="com.dd.suite.bankmanager.testcases.OpenAccountTest">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.OpenAccountTest@4f933fd1]" name="addCustomerTest" duration-ms="15" started-at="2018-10-22T05:11:35Z" data-provider="getData" finished-at="2018-10-22T05:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, Runmode=Y, customer=Rahul Dash}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.OpenAccountTest@4f933fd1]" name="addCustomerTest" duration-ms="7" started-at="2018-10-22T05:11:35Z" data-provider="getData" finished-at="2018-10-22T05:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Dollar, Runmode=Y, customer=Amit Jena}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.dd.suite.bankmanager.testcases.OpenAccountTest@4f933fd1]" name="addCustomerTest" duration-ms="10" started-at="2018-10-22T05:11:35Z" data-provider="getData" finished-at="2018-10-22T05:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Dollar, Runmode=Y, customer=Amit Jena}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.dd.suite.bankmanager.testcases.OpenAccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
