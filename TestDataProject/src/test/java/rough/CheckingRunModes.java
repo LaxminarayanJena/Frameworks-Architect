@@ -9,7 +9,7 @@ public class CheckingRunModes {
 		
 		//String suiteName= "CustomerSuite";
 		String suiteName= "BankManagerSuite";
-		boolean suiteRunmode=DataUtil.isSuiteRunnable(suiteName, new ExcelReader(System.getProperty("user.dir") +"\\src\\test\\resources\\testData\\Suite.xlsx"));
+		boolean suiteRunmode=DataUtil.isSuiteRunnable(suiteName);
 
 		System.out.println(suiteRunmode);
 		

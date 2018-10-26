@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [BankManagerSuite]">
-  <test thread-count="5" name="AddCustomerTest(failed)">
+  <test thread-count="5" name="OpenAccountTest(failed)">
     <classes>
-      <class name="com.dd.suite.customer.testcases.AddCustomerTest">
+      <class name="com.dd.suite.bankmanager.testcases.OpenAccountTest">
         <methods>
-          <include name="addCustomerTest"/>
+          <include name="OpenAccountTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.dd.suite.customer.testcases.AddCustomerTest -->
+      </class> <!-- com.dd.suite.bankmanager.testcases.OpenAccountTest -->
     </classes>
-  </test> <!-- AddCustomerTest(failed) -->
+  </test> <!-- OpenAccountTest(failed) -->
 </suite> <!-- Failed suite [BankManagerSuite] -->

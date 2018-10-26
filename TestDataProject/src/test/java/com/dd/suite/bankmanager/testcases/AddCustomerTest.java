@@ -17,6 +17,8 @@ public class AddCustomerTest {
 	public void addCustomerTest(Hashtable<String,String> data)
 	{
 		
+		ExcelReader excel = new ExcelReader(Constants.SUITE1_XL_PATH);
+		DataUtil.checkExecution("BankManagerSuite", "AddCustomerTest", data.get("Runmode"), excel);
 	}
 	
 

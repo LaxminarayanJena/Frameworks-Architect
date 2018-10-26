@@ -17,6 +17,8 @@ public class OpenAccountTest {
 	public void OpenAccountTest(Hashtable<String,String> data)
 	{
 		
+		ExcelReader excel = new ExcelReader(Constants.SUITE2_XL_PATH);
+		DataUtil.checkExecution("BankManagerSuite", "OpenAccountTest", data.get("Runmode"), excel);
 	}
 	
 }

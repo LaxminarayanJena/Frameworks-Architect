@@ -2728,3 +2728,1121 @@ java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclip
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 53077 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
 java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 53077 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-22 12:13:52.360
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-22 12:13:52.376
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-10-22 12:50:46.341 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_172
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-22 12:51:27.214
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Poltu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-10-26 21:56:54.319 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_172
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data D:\Projects\LiveProjects(Architect) -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-26 21:57:15.525
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Poltu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 21:59:48.371
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 21:59:48.389
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-10-26 21:59:49.352
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60116 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60116 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:00:00.528
+!MESSAGE The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:00:00.605
+!MESSAGE The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:00:00.647
+!MESSAGE The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:00:03.044
+!MESSAGE The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:00:03.787
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:00:03.801
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:00:05.539
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:00:05.550
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.epp.mpc.core 4 0 2018-10-26 22:02:17.014
+!MESSAGE Failed to stream using org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport@33752efc - falling back to org.eclipse.epp.internal.mpc.core.util.TransportFactory$1@7f90a775: Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:117)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:163)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:128)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:115)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:509)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:535)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$2.doSearch(CachingMarketplaceService.java:282)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:309)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:279)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:296)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:85)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:92)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:95)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:54)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:102)
+	... 14 more
+Contains: Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:92)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:95)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:54)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:102)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:163)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:128)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:115)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:509)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:535)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$2.doSearch(CachingMarketplaceService.java:282)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:309)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:279)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:296)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:85)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2018-10-26 22:02:17.016
+!MESSAGE Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:92)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:95)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:54)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:102)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:163)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:128)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:115)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:509)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:535)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$2.doSearch(CachingMarketplaceService.java:282)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:309)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:279)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:296)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:85)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 2 org.eclipse.epp.mpc.core 4 0 2018-10-26 22:02:17.016
+!MESSAGE Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:92)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:95)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:54)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:102)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:163)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:128)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:115)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:509)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:535)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$2.doSearch(CachingMarketplaceService.java:282)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:309)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:279)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:296)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:85)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2018-10-26 22:02:17.016
+!MESSAGE Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:92)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:95)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:54)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:102)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:163)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:128)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:115)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:509)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:535)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$2.doSearch(CachingMarketplaceService.java:282)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:309)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:279)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:296)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:85)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-10-26 22:02:17.169
+!MESSAGE Connection to http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640 failed on marketplace.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2018-10-26 22:02:17.410
+!MESSAGE File support discovery for *.xlsx failed
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640: Unknown Host: http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:198)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:128)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:115)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:509)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:535)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$2.doSearch(CachingMarketplaceService.java:282)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:309)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:279)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:296)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:85)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.eclipse.core.runtime.CoreException: Unknown Host: http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:181)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.stream(CachingTransport.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.epp.internal.mpc.core.util.AbstractP2TransportFactory.invokeStream(AbstractP2TransportFactory.java:35)
+	at org.eclipse.epp.internal.mpc.core.util.TransportFactory$1.stream(TransportFactory.java:323)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.primaryFailed(FallbackTransportFactory.java:129)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:85)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:163)
+	... 12 more
+Caused by: java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	... 1 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2018-10-26 22:02:17.412
+!MESSAGE Cannot complete request to http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640: Unknown Host: http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unknown Host: http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:181)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.stream(CachingTransport.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.epp.internal.mpc.core.util.AbstractP2TransportFactory.invokeStream(AbstractP2TransportFactory.java:35)
+	at org.eclipse.epp.internal.mpc.core.util.TransportFactory$1.stream(TransportFactory.java:323)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.primaryFailed(FallbackTransportFactory.java:129)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:85)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:163)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:128)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:115)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:509)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:535)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$2.doSearch(CachingMarketplaceService.java:282)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:309)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:279)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:296)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:85)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	... 1 more
+!SUBENTRY 2 org.eclipse.equinox.p2.transport.ecf 4 1006 2018-10-26 22:02:17.413
+!MESSAGE Unknown Host: http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640
+!STACK 0
+java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:12:20.722
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:12:20.754
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-26 22:14:15.117
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [isSuiteRunnable(String, ExcelReader) {key=Lutilities/DataUtil;.isSuiteRunnable(Ljava/lang/String;Lutilities/ExcelReader;)Z} [in DataUtil [in [Working copy] DataUtil.java [in utilities [in src/test/java [in TestDataProject]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.Member.getFlags(Member.java:165)
+	at org.eclipse.jdt.internal.corext.util.JdtFlags.isPrivate(JdtFlags.java:153)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector.isOverriddenMethod(JavaElementHyperlinkSuperImplementationDetector.java:54)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector.addHyperlinks(JavaElementHyperlinkSuperImplementationDetector.java:41)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:115)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:286)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseDown(HyperlinkManager.java:405)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:193)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-10-26 22:14:15.118
+!MESSAGE isSuiteRunnable(String, ExcelReader) {key=Lutilities/DataUtil;.isSuiteRunnable(Ljava/lang/String;Lutilities/ExcelReader;)Z} [in DataUtil [in [Working copy] DataUtil.java [in utilities [in src/test/java [in TestDataProject]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-26 22:14:15.127
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [isSuiteRunnable(String, ExcelReader) {key=Lutilities/DataUtil;.isSuiteRunnable(Ljava/lang/String;Lutilities/ExcelReader;)Z} [in DataUtil [in [Working copy] DataUtil.java [in utilities [in src/test/java [in TestDataProject]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceMethod.getReturnType(SourceMethod.java:188)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkReturnTypeDetector.addHyperlinks(JavaElementHyperlinkReturnTypeDetector.java:40)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:115)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:286)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseDown(HyperlinkManager.java:405)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:193)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-10-26 22:14:15.128
+!MESSAGE isSuiteRunnable(String, ExcelReader) {key=Lutilities/DataUtil;.isSuiteRunnable(Ljava/lang/String;Lutilities/ExcelReader;)Z} [in DataUtil [in [Working copy] DataUtil.java [in utilities [in src/test/java [in TestDataProject]]]]] does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:15:55.495
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:15:55.504
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:16:43.661
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:16:43.671
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:17:17.231
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-26 22:17:17.240
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-10-26 22:17:57.115
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60132 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--1653563503\testng-customsuite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60132 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--1653563503\testng-customsuite.xml
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-10-26 22:18:30.158
+!MESSAGE Connection to http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640 failed on marketplace.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2018-10-26 22:18:30.388
+!MESSAGE File support discovery for *.xlsx failed
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640: Unknown Host: http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:198)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:128)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:115)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:509)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:535)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$2.doSearch(CachingMarketplaceService.java:282)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:309)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:279)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:296)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:85)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.eclipse.core.runtime.CoreException: Unknown Host: http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:181)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.stream(CachingTransport.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.epp.internal.mpc.core.util.AbstractP2TransportFactory.invokeStream(AbstractP2TransportFactory.java:35)
+	at org.eclipse.epp.internal.mpc.core.util.TransportFactory$1.stream(TransportFactory.java:323)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.primaryFailed(FallbackTransportFactory.java:129)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:85)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:163)
+	... 12 more
+Caused by: java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	... 1 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2018-10-26 22:18:30.389
+!MESSAGE Cannot complete request to http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640: Unknown Host: http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unknown Host: http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:181)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.stream(CachingTransport.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.epp.internal.mpc.core.util.AbstractP2TransportFactory.invokeStream(AbstractP2TransportFactory.java:35)
+	at org.eclipse.epp.internal.mpc.core.util.TransportFactory$1.stream(TransportFactory.java:323)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.primaryFailed(FallbackTransportFactory.java:129)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:85)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:163)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:128)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:115)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:509)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:535)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$2.doSearch(CachingMarketplaceService.java:282)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:309)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:279)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:296)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:85)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	... 1 more
+!SUBENTRY 2 org.eclipse.equinox.p2.transport.ecf 4 1006 2018-10-26 22:18:30.389
+!MESSAGE Unknown Host: http://marketplace.eclipse.org/category/free-tagging/fileExtension_Suite.xlsx%2CfileExtension_xlsx/api/p?client=org.eclipse.epp.mpc.core&client.version=1.6.4.v20180214-1810&os=win32&ws=win32&nl=en_US&java.version=1.8.0_172&product=org.eclipse.epp.package.java.product&product.version=4.7.3.M20180330-0640&runtime.version=3.13.0.v20170207-1030&platform.version=4.7.3.v20180330-0640
+!STACK 0
+java.net.UnknownHostException: marketplace.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.testng.eclipse 1 0 2018-10-26 22:18:55.420
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60134 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse-2041472989\testng-customsuite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60134 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse-2041472989\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-10-26 22:20:42.068
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60136 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--1113947975\testng-customsuite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60136 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--1113947975\testng-customsuite.xml
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-10-26 22:44:35.033
+!MESSAGE Unknown Host: http://download.eclipse.org/releases/oxygen/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-10-26 22:44:35.236
+!MESSAGE Connection to http://rlogiacco.github.com/Natural/site.xml failed on rlogiacco.github.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: rlogiacco.github.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-10-26 22:44:35.517
+!MESSAGE Unknown Host: http://rlogiacco.github.com/Natural/site.xml
+!STACK 0
+java.net.UnknownHostException: rlogiacco.github.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-10-26 22:44:35.564
+!MESSAGE Unknown Host: http://download.eclipse.org/eclipse/updates/4.7/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-10-26 22:44:35.595
+!MESSAGE Unknown Host: http://dadacoalition.org/yedit/content.xml
+!STACK 0
+java.net.UnknownHostException: dadacoalition.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-10-26 22:44:35.626
+!MESSAGE Unknown Host: http://oss.opensagres.fr/angularjs-eclipse/1.2.0/content.xml
+!STACK 0
+java.net.UnknownHostException: oss.opensagres.fr
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-10-26 22:44:35.767
+!MESSAGE Unknown Host: http://dl.bintray.com/testng-team/testng-p2-release/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: dl.bintray.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-10-26 22:44:35.829
+!MESSAGE Unknown Host: http://beust.com/eclipse/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: beust.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-10-26 22:44:35.939
+!MESSAGE Unknown Host: http://oss.opensagres.fr/tern.repository/1.2.0/content.xml
+!STACK 0
+java.net.UnknownHostException: oss.opensagres.fr
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:15:10.830
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:15:10.845
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:15:11.892
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:15:11.908
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:16:00.834
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:16:00.849
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:16:30.014
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:16:30.030
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 00:16:34.653
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60152 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--1438317610\testng-customsuite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60152 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--1438317610\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:20:13.690
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:20:13.705
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 00:20:30.014
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea -javaagent:D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\482\0\.cp\jacocoagent.jar=includes=*,excludes=,exclclassloader=sun.reflect.DelegatingClassLoader,output=tcpclient,port=60194
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60195 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse-1833338561\testng-customsuite.xml
+java -ea -javaagent:D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\482\0\.cp\jacocoagent.jar=includes=*,excludes=,exclclassloader=sun.reflect.DelegatingClassLoader,output=tcpclient,port=60194 -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60195 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse-1833338561\testng-customsuite.xml
+
+!ENTRY org.eclipse.eclemma.core 4 5013 2018-10-27 00:20:32.598
+!MESSAGE Error while dumping coverage data (code 5013).
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.jacoco.core.data.ExecutionDataReader.read(ExecutionDataReader.java:83)
+	at org.eclipse.eclemma.internal.core.MemoryExecutionDataSource.readFrom(MemoryExecutionDataSource.java:68)
+	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 00:20:40.315
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60198 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--457456391\testng-customsuite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60198 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--457456391\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 00:23:21.134
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60201 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse-64292122\testng-customsuite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60201 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse-64292122\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:24:34.124
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:24:34.140
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:24:35.202
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:24:35.218
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:24:49.058
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:24:49.058
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 00:26:44.508
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60209 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse-752667556\testng-customsuite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60209 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse-752667556\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:30:41.639
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:30:41.639
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:30:42.686
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:30:42.701
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:30:59.484
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:30:59.499
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 00:31:12.192
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60212 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--244430859\testng-customsuite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60212 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--244430859\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 00:31:41.940
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60214 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--294402243\testng-customsuite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60214 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output C:\Users\Poltu\AppData\Local\Temp\testng-eclipse--294402243\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:36:10.226
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:36:10.242
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:36:11.288
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:36:11.304
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:36:53.312
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:36:53.312
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:53:01.099
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 00:53:01.114
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:13:40.512
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:13:40.590
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:13:54.602
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:13:54.618
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:14:16.443
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:14:16.458
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:14:37.814
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:14:37.830
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:15:05.024
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:15:05.039
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:15:28.356
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:15:28.371
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:15:35.655
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-10-27 01:15:35.671
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 01:16:29.955
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60331 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60331 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 01:17:21.751
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60333 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60333 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 01:18:02.541
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60335 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60335 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-10-27 01:19:55.356
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60338 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml
+java -ea -classpath D:\Software\Testing Software\eclipse\configuration\org.eclipse.osgi\513\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\cldrdata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\dnsns.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jaccess.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\jfxrt.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\localedata.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\nashorn.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunec.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunmscapi.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext\zipfs.jar:D:\Projects\LiveProjects(Architect)\TestDataProject\target\test-classes:D:\Projects\LiveProjects(Architect)\TestDataProject\target\classes:D:\Software\Testing Software\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\Testing Software\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\Testing Software\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\Testing Software\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar:C:\Users\Poltu\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar:C:\Users\Poltu\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar:C:\Users\Poltu\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar:C:\Users\Poltu\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar:C:\Users\Poltu\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar:C:\Users\Poltu\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar:C:\Users\Poltu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar:C:\Users\Poltu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Poltu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar:C:\Users\Poltu\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar org.testng.remote.RemoteTestNG -serport 60338 -protocol json -d D:\Projects\LiveProjects(Architect)\TestDataProject\test-output D:\Projects\LiveProjects(Architect)\TestDataProject\src\test\resources\runner\Suite.xml

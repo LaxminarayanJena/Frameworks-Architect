@@ -20,7 +20,7 @@ public class DataProviders {
 	@DataProvider(name="customerDP")
 	public static Object[][] getDataSuite2(Method m) {
 		System.out.println(m.getName());
-		ExcelReader excel = new ExcelReader(Constants.SUITE1_XL_PATH);
+		ExcelReader excel = new ExcelReader(Constants.SUITE2_XL_PATH);
 		String testCase=m.getName();
 		return DataUtil.getData( testCase, excel);
 

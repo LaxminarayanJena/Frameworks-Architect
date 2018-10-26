@@ -13,11 +13,13 @@ import utilities.ExcelReader;
 public class AddCustomerTest {
 	
 	
-	@Test(dataProviderClass=DataProviders.class,dataProvider="bankManagerDP")
+	@Test(dataProviderClass=DataProviders.class,dataProvider="customerDP")
 	public void addCustomerTest(Hashtable<String,String> data)
 	{
-		
-	}
+
+		ExcelReader excel = new ExcelReader(Constants.SUITE2_XL_PATH);
+		DataUtil.checkExecution("BankManagerSuite", "AddCustomerTest", data.get("Runmode"), excel);
 	
 
+}
 }

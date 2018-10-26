@@ -2,13 +2,42 @@ package utilities;
 
 import java.util.Hashtable;
 
+import org.testng.SkipException;
 import org.testng.annotations.DataProvider;
 
 public class DataUtil {
 	
-	public static boolean isSuiteRunnable(String suiteName, ExcelReader excel)
+	public static void checkExecution(String testSuiteName, String testCaseName, String dataRunMode,
+			ExcelReader excel) {
+
+		if (!isSuiteRunnable(testSuiteName)) {
+
+			throw new SkipException("Skipping the test : " + testCaseName + " as the Runmode of Test Suite : "
+					+ testSuiteName + " is NO");
+
+		}
+		
+		
+		if (!isTestRunnable(testCaseName,excel)) {
+
+			throw new SkipException("Skipping the test : " + testCaseName + " as the Runmode of Test Case : "
+					+ testCaseName + " is NO");
+
+		}
+		
+		
+		if(dataRunMode.equalsIgnoreCase(Constants.RUNMODE_NO)){
+			
+			
+			throw new SkipException("Skipping the test : "+testCaseName+" as the Run mode to Data set is NO");
+		}
+
+	}
+	
+	public static boolean isSuiteRunnable(String suiteName )
 	{
 		
+		ExcelReader excel= new ExcelReader(Constants.SUITE_XL_PATH);
 		int rows = excel.getRowCount(Constants.SUITE_SHEET);
 
 		for (int rowNum = 2; rowNum <= rows; rowNum++) {
