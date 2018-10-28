@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BankManagerSuite]">
+  <test thread-count="5" name="AddCustomerTest(failed)">
+    <classes>
+      <class name="com.jena.suite.bankmanager.testcases.AddCustomerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addCustomerTest" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- com.jena.suite.bankmanager.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- AddCustomerTest(failed) -->
+</suite> <!-- Failed suite [BankManagerSuite] -->

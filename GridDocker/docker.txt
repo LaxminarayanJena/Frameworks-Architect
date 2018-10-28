@@ -1,25 +1,43 @@
-Starting hub
-docker run -d -P --name selenium-hub selenium/hub:3.4.0
+![download](https://user-images.githubusercontent.com/24494133/41867578-1f0e4400-78d1-11e8-88aa-c99930565275.jpg)
 
-docker images
+1)Download docker tool box 
+2)Open docker terminal
 
-Starting chrome node
-docker run -d -P --link selenium-hub:hub selenium/node-chrome-debug:3.4.0
+------------------------------------------------------------------------------
+### Starting hub
+docker run -d --name selenium-hub -p 4444:4444 selenium/hub:3.12.0-boron
 
-starting firefox node
+### Registering chrome node--
 
-docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug:3.4.0
+docker run -d -P -p 5900:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selenium/node-chrome-debug:3.12.0-boron
+
+### Registering firefox node
+docker run -d -P -p 5901:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selenium/node-firefox-debug:3.12.0-boron
 
 
-----------------------------------------------
-Docker Compose
+--------------------------------------------------------------------------------------------
 
 Open window powershell and go to docker-compose.yml location
+ docker-compose -f .\docker-compose.yml up -d
 
-docker-compose up -d
 
-
+------------------------------------------
 vnc viewer password-secret
 
+-------------------------------------
+## other commands </br>
+1)docker ps </br>
+2)docker images
 
+
+#### Run on 5 chrome and 5 firefox  </br>
+
+Open window powershell and go to docker-compose.yml location </br>
+
+docker-compose down </br>
+
+docker-compose up -d </br>
+docker-compose scale chromenode=5 firefoxnode=5 </br>
+
+add portno in kinematic alpha
 

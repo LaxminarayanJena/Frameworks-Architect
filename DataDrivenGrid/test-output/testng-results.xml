@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BankManagerSuite" duration-ms="174228" started-at="2018-10-28T11:01:59Z" finished-at="2018-10-28T11:04:53Z">
+    <groups>
+    </groups>
+    <test name="AddCustomerTest" duration-ms="174228" started-at="2018-10-28T11:01:59Z" finished-at="2018-10-28T11:04:53Z">
+      <class name="com.jena.suite.bankmanager.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jena.suite.bankmanager.testcases.AddCustomerTest@5fdba6f9]" name="setUp" is-config="true" duration-ms="14" started-at="2018-10-28T11:01:59Z" finished-at="2018-10-28T11:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.jena.suite.bankmanager.testcases.AddCustomerTest@5fdba6f9]" name="addCustomerTest" duration-ms="168125" started-at="2018-10-28T11:02:00Z" data-provider="bankManagerDP" finished-at="2018-10-28T11:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, postcode=7878.0, Runmode=Y, lastname=Dash, firstname=Rahul}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="FAIL" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.jena.suite.bankmanager.testcases.AddCustomerTest@5fdba6f9]" name="addCustomerTest" duration-ms="104196" started-at="2018-10-28T11:02:00Z" data-provider="bankManagerDP" finished-at="2018-10-28T11:03:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=7878.0, Runmode=Y, lastname=gopal, firstname=sam}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[address not available
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'fa5e9d4d5c29', ip: '172.22.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.93-boot2docker', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x5787ed - backtrace::backtrace::trace::h59229d13f6a8837d
+   1:           0x578942 - backtrace::capture::Backtrace::new::h23089c033eded8f0
+   2:           0x4463cc - webdriver::error::WebDriverError::new::hd11f864b1fdf4510
+   3:           0x450591 - geckodriver::marionette::MarionetteHandler::create_connection::h6f7058fccafe4367
+   4:           0x425c32 - <webdriver::server::Dispatcher<T, U>>::run::h8f5348b8f5f7c053
+   5:           0x40b22c - std::panicking::try::do_call::hb67c6fb6bcd96195
+   6:           0x5dc20a - panic_unwind::__rust_maybe_catch_panic
+                        at /checkout/src/libpanic_unwind/lib.rs:98
+   7:           0x41b943 - <F as alloc::boxed::FnBox<A>>::call_box::h4100941edc372034
+   8:           0x5d48a4 - alloc::boxed::{{impl}}::call_once<(),()>
+                        at /checkout/src/liballoc/boxed.rs:650
+                         - std::sys_common::thread::start_thread
+                        at /checkout/src/libstd/sys_common/thread.rs:21
+                         - std::sys::imp::thread::{{impl}}::new::thread_start
+                        at /checkout/src/libstd/sys/unix/thread.rs:84
+Command duration or timeout: 102.83 seconds]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: address not available
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'fa5e9d4d5c29', ip: '172.22.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.93-boot2docker', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x5787ed - backtrace::backtrace::trace::h59229d13f6a8837d
+   1:           0x578942 - backtrace::capture::Backtrace::new::h23089c033eded8f0
+   2:           0x4463cc - webdriver::error::WebDriverError::new::hd11f864b1fdf4510
+   3:           0x450591 - geckodriver::marionette::MarionetteHandler::create_connection::h6f7058fccafe4367
+   4:           0x425c32 - <webdriver::server::Dispatcher<T, U>>::run::h8f5348b8f5f7c053
+   5:           0x40b22c - std::panicking::try::do_call::hb67c6fb6bcd96195
+   6:           0x5dc20a - panic_unwind::__rust_maybe_catch_panic
+                        at /checkout/src/libpanic_unwind/lib.rs:98
+   7:           0x41b943 - <F as alloc::boxed::FnBox<A>>::call_box::h4100941edc372034
+   8:           0x5d48a4 - alloc::boxed::{{impl}}::call_once<(),()>
+                        at /checkout/src/liballoc/boxed.rs:650
+                         - std::sys_common::thread::start_thread
+                        at /checkout/src/libstd/sys_common/thread.rs:21
+                         - std::sys::imp::thread::{{impl}}::new::thread_start
+                        at /checkout/src/libstd/sys/unix/thread.rs:84
+Command duration or timeout: 102.83 seconds
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at com.jena.datadriven.base.TestBase.openBrowser(TestBase.java:75)
+at com.jena.suite.bankmanager.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.WebDriverException: address not available
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'fa5e9d4d5c29', ip: '172.22.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.93-boot2docker', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x5787ed - backtrace::backtrace::trace::h59229d13f6a8837d
+   1:           0x578942 - backtrace::capture::Backtrace::new::h23089c033eded8f0
+   2:           0x4463cc - webdriver::error::WebDriverError::new::hd11f864b1fdf4510
+   3:           0x450591 - geckodriver::marionette::MarionetteHandler::create_connection::h6f7058fccafe4367
+   4:           0x425c32 - <webdriver::server::Dispatcher<T, U>>::run::h8f5348b8f5f7c053
+   5:           0x40b22c - std::panicking::try::do_call::hb67c6fb6bcd96195
+   6:           0x5dc20a - panic_unwind::__rust_maybe_catch_panic
+                        at /checkout/src/libpanic_unwind/lib.rs:98
+   7:           0x41b943 - <F as alloc::boxed::FnBox<A>>::call_box::h4100941edc372034
+   8:           0x5d48a4 - alloc::boxed::{{impl}}::call_once<(),()>
+                        at /checkout/src/liballoc/boxed.rs:650
+                         - std::sys_common::thread::start_thread
+                        at /checkout/src/libstd/sys_common/thread.rs:21
+                         - std::sys::imp::thread::{{impl}}::new::thread_start
+                        at /checkout/src/libstd/sys/unix/thread.rs:84
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-I2FKUVF', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: FirefoxDriver
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:81)
+at org.openqa.selenium.remote.server.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:63)
+at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
+at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:209)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.jena.suite.bankmanager.testcases.AddCustomerTest@5fdba6f9]" name="addCustomerTest" duration-ms="173298" started-at="2018-10-28T11:02:00Z" data-provider="bankManagerDP" finished-at="2018-10-28T11:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, postcode=6787.0, Runmode=Y, lastname=jena, firstname=Amit}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="FAIL" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.jena.suite.bankmanager.testcases.AddCustomerTest@5fdba6f9]" name="addCustomerTest" duration-ms="102763" started-at="2018-10-28T11:02:00Z" data-provider="bankManagerDP" finished-at="2018-10-28T11:03:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=5696.0, Runmode=Y, lastname=mishra, firstname=Rahul}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[address not available
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '6d80a53956ca', ip: '172.22.0.6', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.93-boot2docker', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x5787ed - backtrace::backtrace::trace::h59229d13f6a8837d
+   1:           0x578942 - backtrace::capture::Backtrace::new::h23089c033eded8f0
+   2:           0x4463cc - webdriver::error::WebDriverError::new::hd11f864b1fdf4510
+   3:           0x450591 - geckodriver::marionette::MarionetteHandler::create_connection::h6f7058fccafe4367
+   4:           0x425c32 - <webdriver::server::Dispatcher<T, U>>::run::h8f5348b8f5f7c053
+   5:           0x40b22c - std::panicking::try::do_call::hb67c6fb6bcd96195
+   6:           0x5dc20a - panic_unwind::__rust_maybe_catch_panic
+                        at /checkout/src/libpanic_unwind/lib.rs:98
+   7:           0x41b943 - <F as alloc::boxed::FnBox<A>>::call_box::h4100941edc372034
+   8:           0x5d48a4 - alloc::boxed::{{impl}}::call_once<(),()>
+                        at /checkout/src/liballoc/boxed.rs:650
+                         - std::sys_common::thread::start_thread
+                        at /checkout/src/libstd/sys_common/thread.rs:21
+                         - std::sys::imp::thread::{{impl}}::new::thread_start
+                        at /checkout/src/libstd/sys/unix/thread.rs:84
+Command duration or timeout: 100.97 seconds]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: address not available
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '6d80a53956ca', ip: '172.22.0.6', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.93-boot2docker', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x5787ed - backtrace::backtrace::trace::h59229d13f6a8837d
+   1:           0x578942 - backtrace::capture::Backtrace::new::h23089c033eded8f0
+   2:           0x4463cc - webdriver::error::WebDriverError::new::hd11f864b1fdf4510
+   3:           0x450591 - geckodriver::marionette::MarionetteHandler::create_connection::h6f7058fccafe4367
+   4:           0x425c32 - <webdriver::server::Dispatcher<T, U>>::run::h8f5348b8f5f7c053
+   5:           0x40b22c - std::panicking::try::do_call::hb67c6fb6bcd96195
+   6:           0x5dc20a - panic_unwind::__rust_maybe_catch_panic
+                        at /checkout/src/libpanic_unwind/lib.rs:98
+   7:           0x41b943 - <F as alloc::boxed::FnBox<A>>::call_box::h4100941edc372034
+   8:           0x5d48a4 - alloc::boxed::{{impl}}::call_once<(),()>
+                        at /checkout/src/liballoc/boxed.rs:650
+                         - std::sys_common::thread::start_thread
+                        at /checkout/src/libstd/sys_common/thread.rs:21
+                         - std::sys::imp::thread::{{impl}}::new::thread_start
+                        at /checkout/src/libstd/sys/unix/thread.rs:84
+Command duration or timeout: 100.97 seconds
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at com.jena.datadriven.base.TestBase.openBrowser(TestBase.java:75)
+at com.jena.suite.bankmanager.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.WebDriverException: address not available
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '6d80a53956ca', ip: '172.22.0.6', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.93-boot2docker', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x5787ed - backtrace::backtrace::trace::h59229d13f6a8837d
+   1:           0x578942 - backtrace::capture::Backtrace::new::h23089c033eded8f0
+   2:           0x4463cc - webdriver::error::WebDriverError::new::hd11f864b1fdf4510
+   3:           0x450591 - geckodriver::marionette::MarionetteHandler::create_connection::h6f7058fccafe4367
+   4:           0x425c32 - <webdriver::server::Dispatcher<T, U>>::run::h8f5348b8f5f7c053
+   5:           0x40b22c - std::panicking::try::do_call::hb67c6fb6bcd96195
+   6:           0x5dc20a - panic_unwind::__rust_maybe_catch_panic
+                        at /checkout/src/libpanic_unwind/lib.rs:98
+   7:           0x41b943 - <F as alloc::boxed::FnBox<A>>::call_box::h4100941edc372034
+   8:           0x5d48a4 - alloc::boxed::{{impl}}::call_once<(),()>
+                        at /checkout/src/liballoc/boxed.rs:650
+                         - std::sys_common::thread::start_thread
+                        at /checkout/src/libstd/sys_common/thread.rs:21
+                         - std::sys::imp::thread::{{impl}}::new::thread_start
+                        at /checkout/src/libstd/sys/unix/thread.rs:84
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-I2FKUVF', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: FirefoxDriver
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:81)
+at org.openqa.selenium.remote.server.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:63)
+at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
+at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:209)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jena.suite.bankmanager.testcases.AddCustomerTest@5fdba6f9]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-28T11:03:42Z" finished-at="2018-10-28T11:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jena.suite.bankmanager.testcases.AddCustomerTest@5fdba6f9]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-28T11:03:44Z" finished-at="2018-10-28T11:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jena.suite.bankmanager.testcases.AddCustomerTest@5fdba6f9]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-28T11:04:48Z" finished-at="2018-10-28T11:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jena.suite.bankmanager.testcases.AddCustomerTest@5fdba6f9]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-28T11:04:53Z" finished-at="2018-10-28T11:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jena.suite.bankmanager.testcases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+  </suite> <!-- BankManagerSuite -->
+</testng-results>

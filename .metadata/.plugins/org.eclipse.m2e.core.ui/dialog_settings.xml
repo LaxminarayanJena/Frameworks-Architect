@@ -9,6 +9,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="DataDrivenGrid"/>
 			<item value="TestDataProject"/>
 			<item value="XmlAndJsonTest"/>
 			<item value="DataDrivenFramework"/>
