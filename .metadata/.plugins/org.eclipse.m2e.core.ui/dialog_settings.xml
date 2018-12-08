@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.poltu"/>
 			<item value="com.jena"/>
 			<item value="com.json"/>
 			<item value="com.DDF"/>
@@ -9,6 +10,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="PageObjectModelBasics"/>
 			<item value="DataDrivenGrid"/>
 			<item value="TestDataProject"/>
 			<item value="XmlAndJsonTest"/>

@@ -20,9 +20,13 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.jena.utilities.ExtentManager;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class TestBase {
@@ -37,6 +41,11 @@ public class TestBase {
 	public Logger log= Logger.getLogger("devpinoyLogger");
 	public WebDriverWait wait;
 	public static WebElement dropdown;
+	public ExtentReports rep = ExtentManager.getInstance();
+	public ExtentTest test;
+	public static ThreadLocal<ExtentTest> exTest = new ThreadLocal<ExtentTest>();
+	public String browser;
+	
 	
 	public WebDriver getDriver()
 	{
@@ -46,6 +55,33 @@ public class TestBase {
 	{
 		dr.set(driver);
 	}
+	
+	
+	public void setExtentTest(ExtentTest et){
+		
+		exTest.set(et);
+	}
+	
+	public ExtentTest getExtTest(){
+		
+		
+		return exTest.get();
+	}
+	
+	
+	
+	public String getThreadValue(Object value){
+		
+		String text = value.toString();
+		String[] nextText = text.split(" ");
+		String text2 = nextText[nextText.length-1].replace("(", "").replace(")", "");
+		String[] newText2 = text2.split("-");
+		String reqText = newText2[newText2.length-1];
+		return reqText;
+	}
+	
+	
+	
 	
 	public void openBrowser(String browser) throws MalformedURLException
 	{
@@ -76,12 +112,25 @@ public class TestBase {
 		setWebDriver(driver);
 		getDriver().manage().timeouts().implicitlyWait(Integer.parseInt(Config.getProperty("ImplicitWait")), TimeUnit.SECONDS);
 		getDriver().manage().window().maximize();
+		test.log(LogStatus.INFO, "Browser openend successfully"+browser);
 	}
 	
+public void reportPass(String msg){
+		
+		test.log(LogStatus.PASS, msg);
+	}
+
+public void reportFailure(String msg){
 	
+	test.log(LogStatus.FAIL, msg);
+	//captureScreenshot();
+	Assert.fail(msg);
+}
+
 	public void navigate(String url)
 	{
 		getDriver().get(Config.getProperty("testsiteurl"));
+		test.log(LogStatus.INFO, "Navigating to "+Config.getProperty("testsiteurl"));
 	}
 	
 	

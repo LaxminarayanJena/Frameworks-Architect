@@ -1,9 +1,0 @@
-package utilities;
-
-public class Constants {
-	
-	public static String DATA_SHEET="TestData";
-	
-	public static String SUITE_SHEET="Sheet";
-
-}

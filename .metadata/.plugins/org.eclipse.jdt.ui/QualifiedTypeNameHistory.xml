@@ -51,7 +51,6 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.Platform"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="com.jena.datadriven.base.TestBase"/>
 <fullyQualifiedTypeName name="com.jena.utilities.DataProviders"/>
@@ -59,4 +58,5 @@
 <fullyQualifiedTypeName name="com.jena.utilities.DataUtil"/>
 <fullyQualifiedTypeName name="com.jena.utilities.Constants"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 </qualifiedTypeNameHistroy>
