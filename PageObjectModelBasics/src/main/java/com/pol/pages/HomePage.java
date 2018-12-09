@@ -3,15 +3,19 @@ package com.pol.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage {
+import com.pol.base.Page;
+
+public class HomePage extends Page {
 	
-	WebDriver driver;
+	/*WebDriver driver;
 	
 	public HomePage(WebDriver driver)
 	{
 		this.driver=driver;
 		//value passed to global driver
 	}
+	
+	*/
 	public void goToSupoort()
 	{
 		driver.findElement(By.cssSelector(".zh-support")).click();

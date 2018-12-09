@@ -1,16 +1,11 @@
 package com.pol.pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
-public class LoginPage {
+import com.pol.base.Page;
+
+public class LoginPage extends Page {
 	
-	WebDriver driver;
-	
-	public LoginPage(WebDriver driver)
-	{
-		this.driver=driver;
-	}
 	
 	public void doLogin(String username,String password)
 	{

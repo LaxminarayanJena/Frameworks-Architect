@@ -3,20 +3,25 @@ package com.pol.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ZohoAppPage {
+import com.pol.base.Page;
+
+public class ZohoAppPage  extends Page{
 	WebDriver driver;
-	public ZohoAppPage(WebDriver driver)
+	
+	/*public ZohoAppPage(WebDriver driver)
 	{
 		this.driver=driver;
 	}
 	
+	*/
 	public void gotoChat()
 	{
 		
 	}
 	
-	public void gotoCRM()
+	public void gotoCRM() throws InterruptedException
 	{
+		Thread.sleep(4000);
 		driver.findElement(By.cssSelector(".zicon-apps-crm.zicon-apps-96")).click();
 	}
 	
