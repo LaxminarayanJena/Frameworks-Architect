@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import com.pol.base.Page;
 
 public class ZohoAppPage  extends Page{
-	WebDriver driver;
+	
 	
 	/*public ZohoAppPage(WebDriver driver)
 	{
@@ -21,8 +21,12 @@ public class ZohoAppPage  extends Page{
 	
 	public void gotoCRM() throws InterruptedException
 	{
-		Thread.sleep(4000);
+		driver.findElement(By.xpath("//*[text()='Close']")).click();
 		driver.findElement(By.cssSelector(".zicon-apps-crm.zicon-apps-96")).click();
+		
+		
+		
+		//*[text()="Close"]
 	}
 	
 	public void gotoSalesIQ()

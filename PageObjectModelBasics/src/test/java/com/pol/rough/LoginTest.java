@@ -1,13 +1,11 @@
 package com.pol.rough;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
+import com.pol.base.Page;
 import com.pol.pages.HomePage;
 import com.pol.pages.LoginPage;
 import com.pol.pages.ZohoAppPage;
+import com.pol.pages.crm.accounts.AccountsPage;
+import com.pol.pages.crm.accounts.CreateAccountPage;
 
 public class LoginTest {
 
@@ -29,7 +27,14 @@ public class LoginTest {
 	
 	ZohoAppPage zp= new ZohoAppPage();
 	
-	zp.gotoCRM();
+	 zp.gotoCRM();
+	 Page.menu.gotoAccounts();
+	 AccountsPage account = new AccountsPage();
+	 account.gotoCreateAccounts();
+	 
+	 CreateAccountPage cap = new CreateAccountPage();
+	 cap.createAccount("sel1");
+	 
 	}
 
 }
