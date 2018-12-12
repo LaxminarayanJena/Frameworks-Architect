@@ -26,10 +26,11 @@ public class HomePage extends Page {
 		driver.findElement(By.cssSelector("#signuplink>a")).click();
 	}
 	
-	public void goToLogin()
+	public LoginPage goToLogin()
 	{
 		
-		driver.findElement(By.cssSelector(".zh-login")).click();
+		click("loginlink_CSS");
+		return new  LoginPage();
 	}
 	
 	public void goToZohoEdu()

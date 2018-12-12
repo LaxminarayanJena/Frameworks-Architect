@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
-<fullyQualifiedTypeName name="com.mysql.cj.jdbc.Driver"/>
-<fullyQualifiedTypeName name="java.util.logging.Logger"/>
-<fullyQualifiedTypeName name="org.junit.Assert"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.NoSuchElementException"/>
 <fullyQualifiedTypeName name="com.ddf.utilities.ExcelReader"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
 <fullyQualifiedTypeName name="org.testng.ITestListener"/>
@@ -59,4 +51,13 @@
 <fullyQualifiedTypeName name="com.jena.utilities.Constants"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="com.pol.pages.crm.accounts.AccountsPage"/>
+<fullyQualifiedTypeName name="com.pol.pages.crm.CRMHomePage"/>
+<fullyQualifiedTypeName name="com.pol.base.Page"/>
+<fullyQualifiedTypeName name="com.pol.utilities.ExcelReader"/>
+<fullyQualifiedTypeName name="com.pol.utilities.ExtentManger"/>
 </qualifiedTypeNameHistroy>

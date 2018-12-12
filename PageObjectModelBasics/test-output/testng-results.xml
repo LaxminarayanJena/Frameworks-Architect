@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model" duration-ms="6119" started-at="2018-12-12T16:04:05Z" finished-at="2018-12-12T16:04:12Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="6119" started-at="2018-12-12T16:04:05Z" finished-at="2018-12-12T16:04:12Z">
+      <class name="com.pol.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.pol.testcases.LoginTest@2b5825fa]" name="loginTest" duration-ms="5626" started-at="2018-12-12T16:04:06Z" finished-at="2018-12-12T16:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pol.testcases.LoginTest@2b5825fa]" name="tearDown" is-config="true" duration-ms="1672" started-at="2018-12-12T16:04:12Z" finished-at="2018-12-12T16:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pol.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Page Object Model -->
+</testng-results>

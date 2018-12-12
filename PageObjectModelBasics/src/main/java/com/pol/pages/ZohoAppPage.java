@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.pol.base.Page;
+import com.pol.pages.crm.CRMHomePage;
 
 public class ZohoAppPage  extends Page{
 	
@@ -19,10 +20,12 @@ public class ZohoAppPage  extends Page{
 		
 	}
 	
-	public void gotoCRM() throws InterruptedException
+	public CRMHomePage gotoCRM() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//*[text()='Close']")).click();
 		driver.findElement(By.cssSelector(".zicon-apps-crm.zicon-apps-96")).click();
+		
+		return new CRMHomePage();
 		
 		
 		

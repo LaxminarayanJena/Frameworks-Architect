@@ -42,6 +42,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Projects\Frameworks-Architect\GridDocker"/>
+			<item value="D:\Projects\Frameworks-Architect\DataDrivenGrid"/>
+			<item value="D:\Projects\Frameworks-Architect\DataDrivenFramework"/>
+			<item value="D:\Projects\Frameworks-Architect\PageObjectModelBasics"/>
 			<item value="D:\Projects\LiveProjects(Architect)\DataDrivenFramework"/>
 		</list>
 		<list key="projectNameTemplate">

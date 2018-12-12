@@ -8,9 +8,10 @@ public class AccountsPage extends Page{
 	
 	
 	
-	public void gotoCreateAccounts()
+	public CreateAccountPage gotoCreateAccounts()
 	{
 		driver.findElement(By.xpath(".//*[@id='submenu_Accounts']/button")).click();
+		return new CreateAccountPage();
 	}
 	
 	public void gotoImportAccounts()
