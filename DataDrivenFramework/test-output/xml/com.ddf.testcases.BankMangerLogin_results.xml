@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DataDrivenFrameworkTest"
+<testsuite name="Bank Manager Test"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="1.136">
+           time="0.921">
   <properties />
   
   
-            <testcase name="loginAsBankManager" time="1.136" classname="com.ddf.testcases.BankMangerLogin" />
+            <testcase name="bankMangerLogin" time="0.921" classname="com.ddf.testcases.BankMangerLogin" />
       
 </testsuite>

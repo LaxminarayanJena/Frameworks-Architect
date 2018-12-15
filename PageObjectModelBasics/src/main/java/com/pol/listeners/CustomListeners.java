@@ -90,7 +90,7 @@ public class CustomListeners extends Page implements ITestListener,ISuiteListene
 	}
 
 	public void onFinish(ISuite suite) {
-		MonitoringMail mail = new MonitoringMail();
+/*		MonitoringMail mail = new MonitoringMail();
 		
 		try {
 			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
@@ -112,7 +112,7 @@ public class CustomListeners extends Page implements ITestListener,ISuiteListene
 		}
 
 
-		
+	*/	
 	}
 
 }

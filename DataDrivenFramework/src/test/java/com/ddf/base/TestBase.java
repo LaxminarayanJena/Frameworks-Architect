@@ -46,7 +46,8 @@ public class TestBase {
 	public static Properties OR= new Properties();
 	public static FileInputStream fis;
 	public static Logger log =Logger.getLogger("devpinoyLogger");
-	public static ExcelReader excel= new ExcelReader("D:\\Projects\\LiveProjects(Architect)\\DataDrivenFramework\\src\\test\\resources\\excel\\TestData.xlsx");
+	public static ExcelReader excel= new ExcelReader(System.getProperty("user.dir")+"\\src\\test\\resources\\excel\\TestData.xlsx");
+	
 	public static WebDriverWait wait;
 	//import from apachelog4j only
 	public ExtentReports rep= ExtentManger.getInstance();
