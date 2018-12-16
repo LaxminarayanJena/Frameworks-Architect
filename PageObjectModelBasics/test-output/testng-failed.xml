@@ -11,7 +11,7 @@
       <class name="com.pol.testcases.LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="loginTest"/>
+          <include name="loginTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.pol.testcases.LoginTest -->
     </classes>

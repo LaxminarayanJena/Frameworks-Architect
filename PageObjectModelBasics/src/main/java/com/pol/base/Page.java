@@ -17,6 +17,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -120,14 +121,18 @@ public class Page {
 				 driver=new EdgeDriver();
 			}
 			
-			
+			if(config.getProperty("browser").equals("ie"))
+			{
+				System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\com\\pol\\executables\\IEDriverServer.exe");
+				 driver=new InternetExplorerDriver();
+			}
 			
 	
 	  
 	 
 	  
 	
-	  driver.get("https://www.zoho.com/");
+	  driver.get(config.getProperty("testsiteurl"));
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  menu = new TopMenu(driver);
