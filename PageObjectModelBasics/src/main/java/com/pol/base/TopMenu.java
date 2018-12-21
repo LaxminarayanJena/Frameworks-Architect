@@ -3,6 +3,7 @@ package com.pol.base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.pol.pages.HomePage;
 import com.pol.pages.crm.accounts.AccountsPage;
 
 public class TopMenu {
@@ -36,8 +37,11 @@ public class TopMenu {
 	{
 		
 	}
-	public void signOut()
+	public HomePage signOut() throws InterruptedException
 	{
-		
+		Thread.sleep(2500);
+		driver.findElement(By.xpath("//div[@data-zcqa='profilePicture']")).click();
+		driver.findElement(By.xpath("//*[text()='Sign Out']")).click();
+		return new HomePage();
 	}
 }

@@ -16,4 +16,14 @@
       </class> <!-- com.pol.testcases.LoginTest -->
     </classes>
   </test> <!-- Login Test(failed) -->
+  <test thread-count="5" name="CreateAccount Test(failed)">
+    <classes>
+      <class name="com.pol.testcases.CreateAccountTest">
+        <methods>
+          <include name="createAccountTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pol.testcases.CreateAccountTest -->
+    </classes>
+  </test> <!-- CreateAccount Test(failed) -->
 </suite> <!-- Failed suite [Page Object Model] -->

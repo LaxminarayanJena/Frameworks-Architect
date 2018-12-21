@@ -2,6 +2,7 @@ package com.pol.testcases;
 
 import java.util.Hashtable;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.pol.base.Page;
@@ -25,9 +26,10 @@ public class LoginTest extends BaseTest {
 //		LoginPage login = new LoginPage();	
 		
 		LoginPage lp=home.goToLogin();	
-		ZohoAppPage zp= lp.doLogin( data.get("username"), data.get("password"));
+		//ZohoAppPage zp= lp.doLogin( data.get("username"), data.get("password"));
+		lp.doLogin( data.get("username"), data.get("password"));
 		
-		
+		Assert.fail("Login Test  failed");
 		
 		 
 		

@@ -90,11 +90,11 @@ public class CustomListeners extends Page implements ITestListener,ISuiteListene
 	}
 
 	public void onFinish(ISuite suite) {
-/*		MonitoringMail mail = new MonitoringMail();
-		
+		MonitoringMail mail = new MonitoringMail();
+	/*	
 		try {
 			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
-					+ ":8080/job/DataDrivenFramework/Extent_20Reports/";
+					+ ":8080/job/PageObjectModel/Extent_20Report/";
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -111,8 +111,8 @@ public class CustomListeners extends Page implements ITestListener,ISuiteListene
 			e.printStackTrace();
 		}
 
-
-	*/	
+*/
+		
 	}
 
 }
