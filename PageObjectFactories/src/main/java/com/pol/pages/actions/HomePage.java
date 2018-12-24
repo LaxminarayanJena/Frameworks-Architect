@@ -1,24 +1,29 @@
 package com.pol.pages.actions;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
-public class HomePage {
+import com.pol.base.Page;
+import com.pol.pages.locators.HomePageLocators;
+
+public class HomePage extends Page {
 	
-	@FindBy(xpath="//*[@id='tab-flight-tab-hp']")
-	WebElement flightTab;
+	public HomePageLocators home;
 	
-	public void gotoFlights()
+	public HomePage()
 	{
-		flightTab.click();
+		this.home= new HomePageLocators();
+		AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver,10);
+		PageFactory.initElements(factory, this.home);
 	}
 	
-	public void gotoHotels()
+	public HomePage gotoFlights()
 	{
-		
+		home.flightTab.click();
+		return this;
 	}
+	
+	
 	
 	public void gotoFlightsAndHotels()
 	{
@@ -27,7 +32,16 @@ public class HomePage {
 	
 	public void bookAFlight(String from, String to, String departing, String returning, String noOfAdults, String  noOfChildren)
 	{
+		home.fromCity.sendKeys(from);
+		home.toCity.sendKeys(to);
+		home.departFlight.sendKeys(departing);
+		home.returnFlight.sendKeys(returning);
+		home.adultCount.sendKeys(noOfAdults);
+		home.childCount.sendKeys(noOfChildren);
+		home.search.click();
 		
 	}
+	
+	
 
 }

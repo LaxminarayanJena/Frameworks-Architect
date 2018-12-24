@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model With Page Factories" duration-ms="81383" started-at="2018-12-24T14:08:12Z" finished-at="2018-12-24T14:09:33Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="52997" started-at="2018-12-24T14:08:12Z" finished-at="2018-12-24T14:09:05Z">
+      <class name="com.pol.testcases.FlightSearchTest">
+        <test-method status="PASS" signature="flightSearchTest()[pri:0, instance:com.pol.testcases.FlightSearchTest@17695df3]" name="flightSearchTest" duration-ms="52958" started-at="2018-12-24T14:08:12Z" finished-at="2018-12-24T14:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+      </class> <!-- com.pol.testcases.FlightSearchTest -->
+    </test> <!-- Login Test -->
+    <test name="CreateAccount Test" duration-ms="27698" started-at="2018-12-24T14:09:05Z" finished-at="2018-12-24T14:09:33Z">
+      <class name="com.pol.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.pol.testcases.LoginTest@69a10787]" name="loginTest" duration-ms="27687" started-at="2018-12-24T14:09:05Z" finished-at="2018-12-24T14:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.pol.testcases.LoginTest -->
+    </test> <!-- CreateAccount Test -->
+  </suite> <!-- Page Object Model With Page Factories -->
+</testng-results>
