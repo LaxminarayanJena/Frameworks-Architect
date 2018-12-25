@@ -6,19 +6,19 @@
   
    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-
+     <listener class-name="com.pol.errorcollectors.TestListenerAdapter" />
   </listeners>
   
   
   
-<test name ="Login Test">
+<test name ="FlightSearch Test">
     <classes>    
       <class name="com.pol.testcases.FlightSearchTest"/>     
     </classes>
      </test> <!-- Test -->
      
      
-  <test name ="CreateAccount Test">
+  <test name ="Login Test">
     <classes>    
       <class name="com.pol.testcases.LoginTest"/>     
     </classes>

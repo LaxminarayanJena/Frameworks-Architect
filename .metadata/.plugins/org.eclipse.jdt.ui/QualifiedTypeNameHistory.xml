@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.relevantcodes.extentreports.ExtentTest"/>
 <fullyQualifiedTypeName name="com.ddf.base.TestBase"/>
 <fullyQualifiedTypeName name="com.ddf.utilities.TestUtil"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
@@ -43,7 +42,6 @@
 <fullyQualifiedTypeName name="com.pol.utilities.ExcelReader"/>
 <fullyQualifiedTypeName name="com.pol.utilities.ExtentManger"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterSuite"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="com.pol.utilities.MonitoringMail"/>
 <fullyQualifiedTypeName name="com.pol.utilities.Utilities"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
 <fullyQualifiedTypeName name="com.pol.base.Page"/>
+<fullyQualifiedTypeName name="com.pol.pages.actions.SignInPage"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 </qualifiedTypeNameHistroy>

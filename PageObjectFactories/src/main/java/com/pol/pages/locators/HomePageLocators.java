@@ -1,5 +1,7 @@
 package com.pol.pages.locators;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -40,6 +42,7 @@ public class HomePageLocators {
 	@FindBy(xpath="//*[@id='gss-signin-submit']")
 	public WebElement submit;
 	
-
+	@FindBy(xpath=".//li[@class='tab ']")
+	public List<WebElement> tabCount;
 }
 

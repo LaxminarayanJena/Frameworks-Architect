@@ -23,7 +23,11 @@ public class HomePage extends Page {
 		return this;
 	}
 	
-	
+	public int findTabCount()
+	{
+		
+		return home.tabCount.size();
+	}
 	
 	public void gotoFlightsAndHotels()
 	{
