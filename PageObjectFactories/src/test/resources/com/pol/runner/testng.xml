@@ -7,6 +7,7 @@
    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
      <listener class-name="com.pol.errorcollectors.TestListenerAdapter" />
+     <listener class-name="com.pol.listeners.CustomListeners" />
   </listeners>
   
   

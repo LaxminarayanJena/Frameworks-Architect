@@ -4,12 +4,21 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
+import org.openqa.selenium.support.FindBys;
+import org.openqa.selenium.support.FindAll;;
 public class HomePageLocators {
 
-	
+	//anyone is correct it will work	
+	@FindBys({
+	@FindBy(xpath=".//*[@id='wizard-tabs']/div[1]/ul"),
 	@FindBy(xpath="//*[@id='tab-flight-tab-hp']")
+	})
 	public WebElement flightTab;
+	
+	//within 1stfindby it will search second findby
+	
+
+	
 	
 	@FindBy(xpath="//*[@id='flight-origin-hp-flight']")
 	public WebElement fromCity;
@@ -39,8 +48,14 @@ public class HomePageLocators {
 	@FindBy(xpath="//*[@id='gss-signin-password']")
 	public WebElement password;
 	
-	@FindBy(xpath="//*[@id='gss-signin-submit']")
+	
+	//anyone is correct it will work	
+	@FindAll({
+	@FindBy(xpath="//*[@id='gss-signin-submit1']"),
+	@FindBy(id="gss-signin-submit")
+	})
 	public WebElement submit;
+	
 	
 	@FindBy(xpath=".//li[@class='tab ']")
 	public List<WebElement> tabCount;

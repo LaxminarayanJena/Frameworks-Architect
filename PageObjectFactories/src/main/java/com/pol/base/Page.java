@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,6 +22,7 @@ import com.pol.utilities.ExcelReader;
 import com.pol.utilities.ExtentManger;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class Page {
 	
@@ -84,6 +86,22 @@ public class Page {
 		
 		*/
 		topNav= new TopNavigation(driver);
+	}
+	
+    public static void click(WebElement element)
+	
+	{
+    	element.click();
+		log.debug("Clicking on an element :" + element);
+		test.log(LogStatus.INFO, "Clicking on :" + element);
+	}
+    
+   public static void type(WebElement element, String value)
+	
+	{
+    	element.sendKeys(value);
+		log.debug("Typing in an element :" + element + "entered value as :" + value);
+		test.log(LogStatus.INFO, "Typing in an element :" + element + "entered value as :" + value);
 	}
 	
 	public static void quitBrowser()

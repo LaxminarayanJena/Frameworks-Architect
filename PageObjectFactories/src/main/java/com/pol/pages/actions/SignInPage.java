@@ -21,9 +21,14 @@ public SignInPageLocators signinpage ;
 	
 	public void doLogin(String username, String password)
 	{
-		signinpage.email.sendKeys(username);
-		signinpage.password.sendKeys(password);
-		signinpage.submit.click();
+		 signinpage.email.sendKeys(username);
+		// signinpage.password.sendKeys(password);
+		 
+		 type(signinpage.password, password);
+		//signinpage.submit.click();
+		click(signinpage.submit);
 	}
+	
+	
 
 }
