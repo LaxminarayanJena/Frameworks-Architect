@@ -93,16 +93,16 @@ public class Page {
 	{
     	element.click();
 		log.debug("Clicking on an element :" + element);
-		test.log(LogStatus.INFO, "Clicking on :" + element);
+		//test.log(LogStatus.INFO, "Clicking on :" + element);
 	}
     
-   public static void type(WebElement element, String value)
-	
-	{
-    	element.sendKeys(value);
-		log.debug("Typing in an element :" + element + "entered value as :" + value);
-		test.log(LogStatus.INFO, "Typing in an element :" + element + "entered value as :" + value);
+  
+   public static void type(WebElement element, String value) {
+		element.sendKeys(value);
+		log.debug("Typing in an Element : "+element+" entered value as : "+value);		
+		//test.log(LogStatus.INFO, "Typing in : " + element + " entered value as " + value);
 	}
+   
 	
 	public static void quitBrowser()
 	{

@@ -1,4 +1,6 @@
-25/12/2018 20:34:24 devpinoyLogger Chrome launched
-25/12/2018 20:35:25 devpinoyLogger Chrome launched
-25/12/2018 20:35:47 devpinoyLogger Typing in an element :[[ChromeDriver: chrome on XP (7caf3e60d4e7e5cf676f815fdd181842)] -> xpath: //*[@id='gss-signin-password']]entered value as :1234
-25/12/2018 20:35:47 devpinoyLogger Clicking on an element :[[ChromeDriver: chrome on XP (7caf3e60d4e7e5cf676f815fdd181842)] -> xpath: //*[@id='gss-signin-submit']]
+26/12/2018 09:13:28 devpinoyLogger Chrome launched
+26/12/2018 09:13:48 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (19296f59401c3484701d73bfd2f4e747)] -> xpath: //*[@id='gss-signin-password']] entered value as : 123selenium*
+26/12/2018 09:13:48 devpinoyLogger Clicking on an element :[[ChromeDriver: chrome on XP (19296f59401c3484701d73bfd2f4e747)] -> xpath: //*[@id='gss-signin-submit']]
+26/12/2018 09:13:52 devpinoyLogger Chrome launched
+26/12/2018 09:14:13 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (a22d824f4ac3c70f97cf51b6b6d9728d)] -> xpath: //*[@id='gss-signin-password']] entered value as : 123selenium*
+26/12/2018 09:14:13 devpinoyLogger Clicking on an element :[[ChromeDriver: chrome on XP (a22d824f4ac3c70f97cf51b6b6d9728d)] -> xpath: //*[@id='gss-signin-submit']]
