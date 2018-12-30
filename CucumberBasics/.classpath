@@ -6,8 +6,11 @@
 	<classpathentry kind="lib" path="D:/Projects/Frameworks-Architect/CucumberBasics/jars/cucumber-core-1.2.5.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/Frameworks-Architect/CucumberBasics/jars/cucumber-html-0.2.6.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/Frameworks-Architect/CucumberBasics/jars/cucumber-java-1.2.5.jar"/>
-	<classpathentry kind="lib" path="D:/Projects/Frameworks-Architect/CucumberBasics/jars/cucumber-junit-1.2.5.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/Frameworks-Architect/CucumberBasics/jars/cucumber-jvm-deps-1.0.5.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/Frameworks-Architect/CucumberBasics/jars/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/Frameworks-Architect/CucumberBasics/jars/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/Frameworks-Architect/CucumberBasics/jars/extent reports/cucumber-extentsreport-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/Frameworks-Architect/CucumberBasics/jars/extent reports/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="D:/Projects/Frameworks-Architect/CucumberBasics/jars/extent reports/freemarker-2.3.25-incubating.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

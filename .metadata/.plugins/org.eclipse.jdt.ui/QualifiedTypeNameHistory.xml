@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="utilities.ExcelReader"/>
-<fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
-<fullyQualifiedTypeName name="utilities.DataUtil"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="utilities.DataProviders"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebDriver"/>
@@ -20,7 +17,6 @@
 <fullyQualifiedTypeName name="com.jena.utilities.ExcelReader"/>
 <fullyQualifiedTypeName name="com.jena.utilities.DataUtil"/>
 <fullyQualifiedTypeName name="com.jena.utilities.Constants"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="com.pol.pages.crm.accounts.AccountsPage"/>
@@ -42,7 +38,6 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
 <fullyQualifiedTypeName name="com.pol.pages.actions.SignInPage"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBys"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.FindAll"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="org.testng.SkipException"/>
 <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
 <fullyQualifiedTypeName name="cucumber.api.junit.Cucumber"/>
+<fullyQualifiedTypeName name="cucumber.api.DataTable"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
 </qualifiedTypeNameHistroy>

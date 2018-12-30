@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="567" started-at="2018-12-30T12:24:29Z" finished-at="2018-12-30T12:24:30Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCukeTestNG@6a4f787b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="567" started-at="2018-12-30T12:24:29Z" finished-at="2018-12-30T12:24:30Z">
+      <class name="runner.RunCukeTestNG">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunCukeTestNG@6a4f787b]" name="setUpClass" is-config="true" duration-ms="236" started-at="2018-12-30T12:24:29Z" finished-at="2018-12-30T12:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCukeTestNG@6a4f787b]" name="feature" duration-ms="187" started-at="2018-12-30T12:24:29Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-12-30T12:24:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login to Production]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunCukeTestNG@6a4f787b]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2018-12-30T12:24:30Z" finished-at="2018-12-30T12:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCukeTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
