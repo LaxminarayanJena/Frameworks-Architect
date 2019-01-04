@@ -2,14 +2,15 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.poltu"/>
 			<item value="com.jena"/>
+			<item value="com.poltu"/>
 			<item value="com.json"/>
 			<item value="com.DDF"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="CucumberPageObjects"/>
 			<item value="PageObjectModelBasics"/>
 			<item value="DataDrivenGrid"/>
 			<item value="TestDataProject"/>
