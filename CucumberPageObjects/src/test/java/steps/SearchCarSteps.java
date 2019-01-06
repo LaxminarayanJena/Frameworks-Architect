@@ -9,6 +9,8 @@ import utils.SeleniumDriver;
 
 import java.util.List;
 
+import org.testng.Assert;
+
 import cucumber.api.java.en.And;
 
 public class SearchCarSteps {
@@ -65,13 +67,16 @@ public class SearchCarSteps {
 	@Then("I should see list of searched cars")
 	public void i_should_see_list_of_searched_cars() {
 	    
-
+		System.out.println("Car List Found");
 	}
 
 	@Then("the page title should be {string}")
-	public void the_page_title_should_be(String string) {
+	public void the_page_title_should_be(String expectedPageTitle) {
 	    
-
+		 String ActualPageTitle= SeleniumDriver.getDriver().getTitle();
+		    System.out.println("Actual page title-->"+ActualPageTitle);
+		    System.out.println("Expected page title-->"+expectedPageTitle);
+		    Assert.assertEquals(expectedPageTitle, ActualPageTitle);
 	}
 
 

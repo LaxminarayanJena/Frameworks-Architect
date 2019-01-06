@@ -18,7 +18,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         features = "src/test/resources/features",
         glue = "steps",
         monochrome=true,
-        tags = {"@Search-Cars"}        
+        tags= {"@Search-Cars ,@UsedSearch-Cars"} 
         )
 
 public class RunCuke extends AbstractTestNGCucumberTests {
