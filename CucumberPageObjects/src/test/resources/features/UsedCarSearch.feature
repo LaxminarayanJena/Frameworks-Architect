@@ -22,4 +22,4 @@ Feature: Acceptance testing to validate used search cars page is working
     And select location  from SelectLocation dropdown as "ACT - All"
     And click on FindMyNextCar button
     Then I should see list of used cars
-    And the page title should match expected title "Audi A1 for Sale ACT | carsguide"
+    And the page title should match expected title "Used Audi A1 for Sale ACT | carsguide"

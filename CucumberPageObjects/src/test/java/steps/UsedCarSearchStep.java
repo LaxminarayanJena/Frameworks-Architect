@@ -35,7 +35,7 @@ public class UsedCarSearchStep {
 
 	@When("click on the sub menu {string} link")
 	public void click_on_the_sub_menu_link(String searchCars) {
-		carsGuideHomePageActions.clickOnSearchCarsMenu();
+		carsGuideHomePageActions.clickOnUsedSearchCarsMenu();
 	    
 	}
 
