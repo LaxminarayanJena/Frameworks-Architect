@@ -26,7 +26,7 @@ public class RunCuke extends AbstractTestNGCucumberTests {
 	@BeforeClass
     public static void setup() {
         // Initiates the extent report and generates the output in the output/Run_<unique timestamp>/report.html file by default.
-	/*	SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy_hhmmss");
+/*		SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy_hhmmss");
 		Date curDate = new Date();
 		String strDate = sdf.format(curDate);
 		String fileName = System.getProperty("user.dir")+"\\target\\Extent_Reports\\" + strDate+".html";
@@ -47,8 +47,8 @@ public class RunCuke extends AbstractTestNGCucumberTests {
         systemInfo.put("Cucumber version", "v1.2.3");
         systemInfo.put("Extent Cucumber Reporter version", "v1.1.0");
         ExtentCucumberFormatter.addSystemInfo(systemInfo);
+   */     
         
-        */
     }
 	
 }
