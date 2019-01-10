@@ -7,7 +7,7 @@ public class WebDriver {
 		
 	}
 	
-public void sendkeys(){
+public void Sendkeys(){
 		
 		
 	}

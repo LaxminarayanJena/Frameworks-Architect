@@ -123,7 +123,6 @@ INDEX VERSION 1.130+D:\Projects\Frameworks-Architect\.metadata\.plugins\org.ecli
 2247571489.index
 413744806.index
 2698703120.index
-2345916409.index
 677620820.index
 2149610838.index
 4224016778.index
