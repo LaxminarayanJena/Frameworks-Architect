@@ -3,13 +3,13 @@
 <suite name="Suite" parallel ="tests">
   <test name="Test1">
     <classes>
-           <class name="com.pol.zoho.rough.TestCase1"/>
+           <class name="com.pol.zoho.testcases.TestCase1"/>
     </classes>
   </test> <!-- Test -->
   
    <test name="Test2">
    <classes>     
-      <class name="com.pol.zoho.rough.TestCase2"/>
+      <class name="com.pol.zoho.testcases.TestCase2"/>
     </classes>
   </test> <!-- Test -->
   

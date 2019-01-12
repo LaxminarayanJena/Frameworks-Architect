@@ -1,13 +1,13 @@
 package com.pol.zoho.rough;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.pol.zoho.PageObjects.ZohoHomePage;
+import com.pol.zoho.PageObjects.ZohoLoginPage;
 
 public class TestCase1 extends BaseTest {
 	
@@ -18,6 +18,8 @@ public class TestCase1 extends BaseTest {
 	{
 		
 		openBrowser(browser);
+		
+		
 		WebDriverWait wait = new WebDriverWait(getDriver(),40);		
 		getDriver().findElement(By.xpath("html/body/div[2]/div[2]/div/a[4]")).click();				
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='lid']")));	

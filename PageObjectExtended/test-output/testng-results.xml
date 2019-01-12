@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="56317" started-at="2019-01-11T12:51:19Z" finished-at="2019-01-11T12:52:16Z">
+  <suite name="Suite" duration-ms="38851" started-at="2019-01-12T09:04:01Z" finished-at="2019-01-12T09:04:40Z">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="32665" started-at="2019-01-11T12:51:19Z" finished-at="2019-01-11T12:51:52Z">
-      <class name="com.pol.zoho.rough.TestCase2">
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pol.zoho.rough.TestCase2@22eeefeb]" name="doLogin" duration-ms="32627" started-at="2019-01-11T12:51:19Z" data-provider="getData" finished-at="2019-01-11T12:51:52Z">
+    <test name="Test2" duration-ms="27427" started-at="2019-01-12T09:04:01Z" finished-at="2019-01-12T09:04:29Z">
+      <class name="com.pol.zoho.testcases.TestCase2">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pol.zoho.testcases.TestCase2@67b467e9]" name="doLogin" duration-ms="27395" started-at="2019-01-12T09:04:01Z" data-provider="getData" finished-at="2019-01-12T09:04:29Z">
           <params>
             <param index="0">
               <value>
@@ -28,11 +28,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-      </class> <!-- com.pol.zoho.rough.TestCase2 -->
+      </class> <!-- com.pol.zoho.testcases.TestCase2 -->
     </test> <!-- Test2 -->
-    <test name="Test1" duration-ms="56317" started-at="2019-01-11T12:51:19Z" finished-at="2019-01-11T12:52:16Z">
-      <class name="com.pol.zoho.rough.TestCase1">
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pol.zoho.rough.TestCase1@1b26f7b2]" name="doLogin" duration-ms="56285" started-at="2019-01-11T12:51:19Z" data-provider="getData" finished-at="2019-01-11T12:52:16Z">
+    <test name="Test1" duration-ms="38851" started-at="2019-01-12T09:04:01Z" finished-at="2019-01-12T09:04:40Z">
+      <class name="com.pol.zoho.testcases.TestCase1">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pol.zoho.testcases.TestCase1@1d371b2d]" name="doLogin" duration-ms="26615" started-at="2019-01-12T09:04:01Z" data-provider="getData" finished-at="2019-01-12T09:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumtesterbangalore@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pol.zoho.testcases.TestCase1@1d371b2d]" name="doLogin" duration-ms="38819" started-at="2019-01-12T09:04:01Z" data-provider="getData" finished-at="2019-01-12T09:04:40Z">
           <params>
             <param index="0">
               <value>
@@ -53,28 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pol.zoho.rough.TestCase1@1b26f7b2]" name="doLogin" duration-ms="32627" started-at="2019-01-11T12:51:19Z" data-provider="getData" finished-at="2019-01-11T12:51:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[seleniumtesterbangalore@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123selenium]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-      </class> <!-- com.pol.zoho.rough.TestCase1 -->
+      </class> <!-- com.pol.zoho.testcases.TestCase1 -->
     </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>

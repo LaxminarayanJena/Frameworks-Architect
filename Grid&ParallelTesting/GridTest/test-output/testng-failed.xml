@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [test Suite]" parallel="tests">
+  <test thread-count="10" name="TestChrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Gmail">
+        <methods>
+          <include name="GmailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Gmail -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test thread-count="10" name="TestFirefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Gmail">
+        <methods>
+          <include name="GmailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Gmail -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [test Suite] -->
