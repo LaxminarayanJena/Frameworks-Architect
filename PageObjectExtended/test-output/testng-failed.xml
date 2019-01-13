@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
   <test thread-count="5" name="Test1(failed)" parallel="tests">
     <classes>
-      <class name="com.pol.zoho.testcases.TestCase1">
+      <class name="com.pol.zoho.testcases.LoginTest">
         <methods>
-          <include name="doLogin" invocation-numbers="1"/>
+          <include name="loginTest" invocation-numbers="2 0 1"/>
         </methods>
-      </class> <!-- com.pol.zoho.testcases.TestCase1 -->
+      </class> <!-- com.pol.zoho.testcases.LoginTest -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
