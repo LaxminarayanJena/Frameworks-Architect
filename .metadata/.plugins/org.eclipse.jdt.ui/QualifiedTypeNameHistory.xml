@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
-<fullyQualifiedTypeName name="org.testng.SkipException"/>
-<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
-<fullyQualifiedTypeName name="cucumber.api.junit.Cucumber"/>
-<fullyQualifiedTypeName name="cucumber.api.DataTable"/>
 <fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
 <fullyQualifiedTypeName name="cucumber.api.java.Before"/>
 <fullyQualifiedTypeName name="cucumber.api.java.After"/>
@@ -49,15 +44,20 @@
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="com.pol.zoho.PageObjects.ZohoHomePage"/>
 <fullyQualifiedTypeName name="com.pol.zoho.PageObjects.ZohoLoginPage"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="com.pol.zoho.SetUp.BaseTest"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.How"/>
 <fullyQualifiedTypeName name="com.pol.zoho.utilities.DataProviders"/>
 <fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="com.pol.zoho.utilities.ExcelReader"/>
+<fullyQualifiedTypeName name="com.pol.zoho.utilities.DataUtil"/>
+<fullyQualifiedTypeName name="com.pol.zoho.utilities.Constants"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+<fullyQualifiedTypeName name="com.pol.zoho.utilities.DriverManager"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedCondition"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
 </qualifiedTypeNameHistroy>

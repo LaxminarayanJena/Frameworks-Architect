@@ -12,20 +12,12 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.pol.zoho.utilities.DriverManager;
+
 public class BaseTest {
 
-public static ThreadLocal<RemoteWebDriver>dr = new ThreadLocal<RemoteWebDriver>();
    private RemoteWebDriver driver;
-	public WebDriver getDriver()
-	{
-		return dr.get();
-		
-	}
 	
-	public void setWebDriver(RemoteWebDriver driver)
-	{
-		dr.set(driver);
-	}
 	
 	public void openBrowser(String browser)
 	{
@@ -57,16 +49,16 @@ public static ThreadLocal<RemoteWebDriver>dr = new ThreadLocal<RemoteWebDriver>(
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		setWebDriver(driver);
+		DriverManager.setWebDriver(driver);
 		
-		getDriver().manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		DriverManager.getDriver().manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 			
-		getDriver().manage().window().maximize();
-		getDriver().get("https://www.zoho.com/");
+		DriverManager.getDriver().manage().window().maximize();
+		DriverManager.getDriver().get("https://www.zoho.com/");
 	}
 	
 	public void closeBrowser()
 	{
-		getDriver().quit();
+		DriverManager.getDriver().quit();
 	}
 }

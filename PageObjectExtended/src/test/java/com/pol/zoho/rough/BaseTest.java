@@ -79,7 +79,7 @@ public static ThreadLocal<RemoteWebDriver>dr = new ThreadLocal<RemoteWebDriver>(
 		getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			
 		getDriver().manage().window().maximize();
-		getDriver().get("https://www.zoho.com/");
+		
 	}
 	
 	public void closeBrowser()

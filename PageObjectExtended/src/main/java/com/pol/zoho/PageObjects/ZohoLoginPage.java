@@ -4,15 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ZohoLoginPage {
+public class ZohoLoginPage extends BasePage{
 
-	WebDriver driver;
-	public ZohoLoginPage(WebDriver driver)
-	{
-		PageFactory.initElements(driver, this);
-	}
+	
 	
 	@FindBy(xpath=".//*[@id='lid']")
 	public WebElement email;
@@ -23,17 +21,18 @@ public class ZohoLoginPage {
 	@FindBy(xpath="//*[@id='signin_submit']")
 	public WebElement signin;
 	
-	public void doLogin(String username,String userpassword)
-	{
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		
+	public ZohoLoginPage doLogin(String username,String userpassword)
+	{		
 		email.sendKeys(username);
 		password.sendKeys(userpassword);
 		signin.click();
+		return this;
+	}
+
+	@Override
+	protected ExpectedCondition getPageLoadCondition() {
+		// TODO Auto-generated method stub
+		return ExpectedConditions.visibilityOf(email);
 	}
 
 

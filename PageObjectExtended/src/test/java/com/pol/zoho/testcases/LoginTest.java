@@ -10,6 +10,7 @@ import com.pol.zoho.SetUp.BaseTest;
 import com.pol.zoho.utilities.Constants;
 import com.pol.zoho.utilities.DataProviders;
 import com.pol.zoho.utilities.DataUtil;
+import com.pol.zoho.utilities.DriverManager;
 import com.pol.zoho.utilities.ExcelReader;
 
 public class LoginTest extends BaseTest {
@@ -24,7 +25,7 @@ public class LoginTest extends BaseTest {
 		ExcelReader excel = new ExcelReader(Constants.SUITE1_XL_PATH);
 		DataUtil.checkExecution("master", "LoginTest", data.get("Runmode"), excel);
 		openBrowser(data.get("browser"));
-		ZohoHomePage home = new ZohoHomePage(getDriver());
+		ZohoHomePage home = new ZohoHomePage().open("https://www.zoho.com/");
 		ZohoLoginPage login =home.gotoLogin();		
 		login.doLogin(data.get("username"), data.get("password"));
 		closeBrowser();
