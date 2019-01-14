@@ -1,0 +1,4 @@
+INFO    2019-01-14 08:08:50,152 [main] com.pol.zoho.SetUp.BaseTest  - config file loaded
+INFO    2019-01-14 08:08:54,091 [TestNG-PoolService-2] com.pol.zoho.SetUp.BaseTest  - chrome browser launched
+INFO    2019-01-14 08:08:54,093 [TestNG-PoolService-0] com.pol.zoho.SetUp.BaseTest  - chrome browser launched
+INFO    2019-01-14 08:09:06,761 [TestNG-PoolService-1] com.pol.zoho.SetUp.BaseTest  - firefox browser launched

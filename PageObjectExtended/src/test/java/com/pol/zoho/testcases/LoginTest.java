@@ -2,6 +2,8 @@ package com.pol.zoho.testcases;
 
 import java.util.Hashtable;
 
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import com.pol.zoho.PageObjects.ZohoHomePage;
@@ -28,11 +30,16 @@ public class LoginTest extends BaseTest {
 		ZohoHomePage home = new ZohoHomePage().open("https://www.zoho.com/");
 		ZohoLoginPage login =home.gotoLogin();		
 		login.doLogin(data.get("username"), data.get("password"));
-		closeBrowser();
+		//Assert.fail("failing the login test");
 		
-		
+				
 	}
 	
+	@AfterMethod
+	public void tearDown()
+	{
+		closeBrowser();
+	}
 	
 
 }
