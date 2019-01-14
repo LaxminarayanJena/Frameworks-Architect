@@ -12,7 +12,7 @@ public class ZohoLoginPage extends BasePage{
 
 	
 	
-	@FindBy(xpath=".//*[@id='lid']")
+	@FindBy(xpath="//*[@id='lid']") 
 	public WebElement email;
 	
 	@FindBy(xpath=".//*[@id='pwd']")
@@ -23,7 +23,8 @@ public class ZohoLoginPage extends BasePage{
 	
 	public ZohoLoginPage doLogin(String username,String userpassword)
 	{		
-		email.sendKeys(username);
+		//email.sendKeys(username);
+		type(email, username, "UserName TextBox");
 		password.sendKeys(userpassword);
 		signin.click();
 		return this;
@@ -32,7 +33,7 @@ public class ZohoLoginPage extends BasePage{
 	@Override
 	protected ExpectedCondition getPageLoadCondition() {
 		// TODO Auto-generated method stub
-		return ExpectedConditions.visibilityOf(email);
+		return ExpectedConditions.visibilityOf(password);
 	}
 
 

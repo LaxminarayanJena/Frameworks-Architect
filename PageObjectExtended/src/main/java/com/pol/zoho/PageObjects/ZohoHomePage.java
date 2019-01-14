@@ -10,7 +10,7 @@ public class ZohoHomePage extends BasePage {
 	
 	
 
-	@FindBy(xpath="html/body/div[2]/div[2]/div/a[4]")
+	@FindBy(xpath="//*[text()='Login']")
 	public WebElement logIn;
 	
 	public ZohoHomePage open(String url)
@@ -22,7 +22,8 @@ public class ZohoHomePage extends BasePage {
 	public ZohoLoginPage gotoLogin()
 	{
 		
-		logIn.click();
+		//logIn.click();
+		click(logIn, "Login Link");
 		//return new ZohoLoginPage(driver);
 		
 		return (ZohoLoginPage) openPage(ZohoLoginPage.class);

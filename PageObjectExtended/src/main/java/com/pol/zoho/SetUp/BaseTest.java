@@ -12,12 +12,14 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeSuite;
 
+import com.pol.zoho.ExtentListeners.ExtentListeners;
 import com.pol.zoho.utilities.DriverFactory;
 import com.pol.zoho.utilities.DriverManager;
 
@@ -27,6 +29,7 @@ public class BaseTest {
    private Properties config = new Properties();
    private FileInputStream fis;
    public Logger log = Logger.getLogger(BaseTest.class);
+   public boolean grid=false;
    
    @BeforeSuite
    public void setUpFramework()
@@ -64,6 +67,11 @@ public class BaseTest {
 	    
    }
    
+     
+   public void logInfo(String message)
+   {
+	   ExtentListeners.testReport.get().info(message);
+   }
    public void configureLogging()
    {
 	   String log4jConfigFile=System.getProperty("user.dir") +"//src//test//resources//properties//log4j.properties";
@@ -74,8 +82,12 @@ public class BaseTest {
 	public void openBrowser(String browser)
 			
 	{
+		if(System.getenv("ExecutionType")!=null && System.getenv("ExecutionType").equals("Grid"))
+		{
+			grid=true;
+		}
 		
-		DriverFactory.setRemote(false);
+		DriverFactory.setRemote(grid);
 		
 		
 		if(DriverFactory.isRemote())

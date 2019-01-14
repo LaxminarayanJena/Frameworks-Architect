@@ -1,11 +1,13 @@
 package com.pol.zoho.PageObjects;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.pol.zoho.ExtentListeners.ExtentListeners;
 import com.pol.zoho.utilities.DriverManager;
 
 public abstract class BasePage<T> { 
@@ -35,6 +37,19 @@ public abstract class BasePage<T> {
 		 */
 		
 	}
+	
+	 public void click(WebElement element, String elementName)
+	   {
+		   element.click();
+		   ExtentListeners.testReport.get().info("clicking on : " + elementName); 
+	   }
+	   
+	   public void type(WebElement element,String value,String elementName)
+	   {
+		   element.sendKeys(value);
+		   ExtentListeners.testReport.get().info("Typing in : " + elementName + "enetered the value as :" + value); 
+	   }
+
 	
 	private void waitForPageToLoad(ExpectedCondition pageLoadCondition)
 	{
