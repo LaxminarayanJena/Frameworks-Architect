@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.Jena"/>
 			<item value="com.pol"/>
 			<item value="com.jena"/>
 			<item value="com.poltu"/>
@@ -11,6 +12,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="CucumberBDDParallel"/>
 			<item value="PageObjectExtended"/>
 			<item value="CucumberPageObjects"/>
 			<item value="PageObjectModelBasics"/>

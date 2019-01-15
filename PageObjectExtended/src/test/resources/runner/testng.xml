@@ -5,12 +5,16 @@
 <listeners>
 <listener class-name="com.pol.zoho.ExtentListeners.ExtentListeners"></listener>
 </listeners>
-  <test name="Test1">
+  <test name="LoginTest">
     <classes>
            <class name="com.pol.zoho.testcases.LoginTest"/>
     </classes>
   </test> <!-- Test -->
   
   
-  
+  <test name="ValidateCRMTest">
+    <classes>
+           <class name="com.pol.zoho.testcases.ValidateCRMTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

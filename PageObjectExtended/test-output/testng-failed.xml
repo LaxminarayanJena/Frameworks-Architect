@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="com.pol.zoho.ExtentListeners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Test1(failed)" parallel="tests">
+  <test thread-count="5" name="ValidateCRMTest(failed)" parallel="tests">
     <classes>
-      <class name="com.pol.zoho.testcases.LoginTest">
+      <class name="com.pol.zoho.testcases.ValidateCRMTest">
         <methods>
           <include name="setUpFramework"/>
-          <include name="loginTest" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="validateCRMTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.pol.zoho.testcases.LoginTest -->
+      </class> <!-- com.pol.zoho.testcases.ValidateCRMTest -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- ValidateCRMTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

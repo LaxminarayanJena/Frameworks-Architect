@@ -31,7 +31,30 @@ public class BaseTest {
    public Logger log = Logger.getLogger(BaseTest.class);
    public boolean grid=false;
    
-   @BeforeSuite
+   private String defaultUserName;
+   private String defaultPassword;
+   
+   public String getDefaultUserName() {
+	return defaultUserName;
+}
+
+
+public void setDefaultUserName(String defaultUserName) {
+	this.defaultUserName = defaultUserName;
+}
+
+
+public String getDefaultPassword() {
+	return defaultPassword;
+}
+
+
+public void setDefaultPassword(String defaultPassword) {
+	this.defaultPassword = defaultPassword;
+}
+
+
+@BeforeSuite
    public void setUpFramework()
    {
 	   configureLogging();
@@ -148,6 +171,8 @@ public class BaseTest {
 			
 		DriverManager.getDriver().manage().window().maximize();
 		DriverManager.getDriver().get("https://www.zoho.com/");
+		setDefaultUserName(config.getProperty("defaultUserName"));
+		setDefaultPassword(config.getProperty("defaultPassword"));
 	}
 	
 	public void closeBrowser()

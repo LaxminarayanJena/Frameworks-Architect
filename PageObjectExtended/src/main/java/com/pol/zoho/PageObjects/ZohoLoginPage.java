@@ -21,19 +21,29 @@ public class ZohoLoginPage extends BasePage{
 	@FindBy(xpath="//*[@id='signin_submit']")
 	public WebElement signin;
 	
-	public ZohoLoginPage doLogin(String username,String userpassword)
+	public ZohoLoginPage doLoginAsInvalidUser(String username,String userpassword)
 	{		
 		//email.sendKeys(username);
 		type(email, username, "UserName TextBox");
 		password.sendKeys(userpassword);
 		signin.click();
 		return this;
+	
+	}
+	
+	public ZohoAppPage doLoginAsValidUser(String username,String userpassword)
+	{		
+		//email.sendKeys(username);
+		type(email, username, "UserName TextBox");
+		password.sendKeys(userpassword);
+		signin.click();
+		return (ZohoAppPage) openPage(ZohoAppPage.class);
 	}
 
 	@Override
 	protected ExpectedCondition getPageLoadCondition() {
 		// TODO Auto-generated method stub
-		return ExpectedConditions.visibilityOf(password);
+		return ExpectedConditions.visibilityOf(email);
 	}
 
 

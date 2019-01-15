@@ -21,7 +21,7 @@ public class TestCase2 extends BaseTest  {
 		
 		ZohoHomePage home = new ZohoHomePage();
 		ZohoLoginPage login =home.gotoLogin();		
-		login.doLogin(data.get("username"), data.get("password"));
+		login.doLoginAsInvalidUser(data.get("username"), data.get("password"));
 		closeBrowser();
 		
 		
