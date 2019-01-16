@@ -1,6 +1,6 @@
 Feature: Searching on google using Scenario Outline
 
-Scenario Outline:
+Scenario Outline: Search Google from scenario outline
 
     Given launch browser '<browserName>'
     When user navigates to '<url>'

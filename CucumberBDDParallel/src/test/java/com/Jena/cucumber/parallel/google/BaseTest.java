@@ -8,8 +8,19 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseTest {
 	
-	public WebDriver driver;
+	private WebDriver driver;
+	public static ThreadLocal<WebDriver> dr= new ThreadLocal<WebDriver>();
 	
+	
+
+	public static WebDriver getDriver() {
+		return dr.get();
+	}
+
+	public static void setWebDriver(WebDriver driver) {
+		dr.set(driver);
+	}
+
 	protected void startWebDriver(String browser)
 	{
 		if(browser.equals("firefox"))
@@ -28,17 +39,18 @@ public class BaseTest {
 			
 		}
 		
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		setWebDriver(driver);
+		getDriver().manage().window().maximize();
+		getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
 	protected void navigate(String url)
 	{
-		driver.navigate().to(url);
+		getDriver().navigate().to(url);
 	}
 
 	protected void stopWebDriver()
 	{
-		driver.quit();
+		getDriver().quit();
 	}
 }

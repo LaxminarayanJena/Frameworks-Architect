@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="utils.SeleniumDriver"/>
-<fullyQualifiedTypeName name="pages.actions.CarsGuideHomePageActions"/>
-<fullyQualifiedTypeName name="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-<fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
-<fullyQualifiedTypeName name="org.testng.annotations.BeforeClass"/>
 <fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="pages.locators.UsedCarSearchPageLocators"/>
 <fullyQualifiedTypeName name="pages.actions.UsedCarsSearchPageActions"/>
 <fullyQualifiedTypeName name="pckg1.ClassA"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.Jena.cucumber.parallel.google.BaseTest"/>
+<fullyQualifiedTypeName name="cucumber.api.Scenario"/>
+<fullyQualifiedTypeName name="com.Jena.cucumber.parallel.extent.ExtentTestManager"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.Status"/>
+<fullyQualifiedTypeName name="com.Jena.cucumber.parallel.extent.ExtentManager"/>
 </qualifiedTypeNameHistroy>
