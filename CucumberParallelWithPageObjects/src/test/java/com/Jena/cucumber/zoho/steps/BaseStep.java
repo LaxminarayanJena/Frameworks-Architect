@@ -73,6 +73,8 @@ public void setDefaultPassword(String defaultPassword) {
 	   {
 		   DriverFactory.setChromeDriverExePath(System.getProperty("user.dir") +"//src//test//resources//executables//chromedriver.exe");	    
 		   DriverFactory.setGeckoDriverExePath(System.getProperty("user.dir") +"//src//test//resources//executables//geckodriver.exe");
+	   
+	   
 	   }
 	   
 	   try {
@@ -162,6 +164,7 @@ public void setDefaultPassword(String defaultPassword) {
 				System.out.println("launching :" + browser);
 				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\geckodriver.exe");
 				System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE,"true"); 
+				System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"/dev/null");
 				driver= new FirefoxDriver();
 				log.info("firefox browser launched");
 			}

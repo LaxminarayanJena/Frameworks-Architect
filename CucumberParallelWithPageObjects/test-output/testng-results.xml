@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67844" started-at="2019-01-17T13:53:25Z" finished-at="2019-01-17T13:54:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.bdd.cucumber.runners.LoginFeatureRunner@28ac3dc3]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.bdd.cucumber.runners.ValidateCRMFeatureRunner@3578436e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="LoginTest" duration-ms="67520" started-at="2019-01-17T13:53:25Z" finished-at="2019-01-17T13:54:33Z">
+      <class name="com.Jena.bdd.cucumber.runners.LoginFeatureRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Jena.bdd.cucumber.runners.LoginFeatureRunner@28ac3dc3]" name="setUpClass" is-config="true" duration-ms="149" started-at="2019-01-17T13:53:25Z" finished-at="2019-01-17T13:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.bdd.cucumber.runners.LoginFeatureRunner@28ac3dc3]" name="runScenario" duration-ms="41545" started-at="2019-01-17T13:53:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T13:54:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to zoho.com in Firefox and perform login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to zoho"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.bdd.cucumber.runners.LoginFeatureRunner@28ac3dc3]" name="runScenario" duration-ms="25744" started-at="2019-01-17T13:54:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T13:54:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to zoho.com in chrome and perform login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to zoho"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Jena.bdd.cucumber.runners.LoginFeatureRunner@28ac3dc3]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2019-01-17T13:54:33Z" finished-at="2019-01-17T13:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Jena.bdd.cucumber.runners.LoginFeatureRunner -->
+    </test> <!-- LoginTest -->
+    <test name="ValidateCRMTest" duration-ms="67844" started-at="2019-01-17T13:53:25Z" finished-at="2019-01-17T13:54:33Z">
+      <class name="com.Jena.bdd.cucumber.runners.ValidateCRMFeatureRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Jena.bdd.cucumber.runners.ValidateCRMFeatureRunner@3578436e]" name="setUpClass" is-config="true" duration-ms="149" started-at="2019-01-17T13:53:25Z" finished-at="2019-01-17T13:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.bdd.cucumber.runners.ValidateCRMFeatureRunner@3578436e]" name="runScenario" duration-ms="41572" started-at="2019-01-17T13:53:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T13:54:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to zoho.com"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to zoho and validate CRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.bdd.cucumber.runners.ValidateCRMFeatureRunner@3578436e]" name="runScenario" duration-ms="26045" started-at="2019-01-17T13:54:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T13:54:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to zoho.com"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to zoho and validate CRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Jena.bdd.cucumber.runners.ValidateCRMFeatureRunner@3578436e]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2019-01-17T13:54:33Z" finished-at="2019-01-17T13:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Jena.bdd.cucumber.runners.ValidateCRMFeatureRunner -->
+    </test> <!-- ValidateCRMTest -->
+  </suite> <!-- Suite -->
+</testng-results>

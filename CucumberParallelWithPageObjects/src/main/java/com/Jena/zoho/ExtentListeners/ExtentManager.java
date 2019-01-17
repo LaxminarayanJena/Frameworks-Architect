@@ -8,6 +8,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import com.Jena.zoho.utilities.DriverManager;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
@@ -49,8 +50,8 @@ public class ExtentManager {
 	static int i=0;
 	public static void captureScreenshot() {
 	
-	/*	i = i + 1;
-		File scrFile = ((TakesScreenshot) BaseTest.getDriver()).getScreenshotAs(OutputType.FILE);
+		i = i + 1;
+		File scrFile = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.FILE);
 
 		Date d = new Date();
 		screenshotName = d.toString().replace(":", "_").replace(" ", "_") + "_"+i+".jpg";
@@ -61,7 +62,7 @@ public class ExtentManager {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-*/
+
 	
 	}
 	

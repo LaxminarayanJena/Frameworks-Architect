@@ -5,13 +5,13 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
-		features="src/test/resources/features/login.feature",
+		features="src/test/resources/features/validateCRM.feature",
 		glue="com.Jena.cucumber.zoho.steps",
 		monochrome=true		
 		)
 
 
-public class LoginFeatureRunner extends AbstractTestNGCucumberTests{
+public class ValidateCRMFeatureRunner extends AbstractTestNGCucumberTests{
 
 }
 
