@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.Jena.cucumber.prallel.google.runners.SearchManyFeature">
+        <methods>
+          <include name="runCukes"/>
+        </methods>
+      </class> <!-- com.Jena.cucumber.prallel.google.runners.SearchManyFeature -->
+      <class name="com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature">
+        <methods>
+          <include name="runCukes"/>
+        </methods>
+      </class> <!-- com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

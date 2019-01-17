@@ -21,13 +21,15 @@ public class GoogleSteps extends BaseTest{
 	
 	protected Scenario scenario;
 	static String scenarioName;
+	static int x=0;
 	
 	@Before
 	public void before(Scenario scenario)
 	{
+		x=x+1;
 		this.scenario=scenario;
 		scenarioName=scenario.getName();
-		ExtentTestManager.startTest(scenario.getName());
+		ExtentTestManager.startTest("Scenario no :"+x+scenario.getName());
 		ExtentTestManager.getTest().log(Status.INFO,"scenario started :-" +scenario.getName() );
 	}
 	
