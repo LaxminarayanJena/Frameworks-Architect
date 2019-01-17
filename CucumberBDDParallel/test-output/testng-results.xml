@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53101" started-at="2019-01-17T01:36:25Z" finished-at="2019-01-17T01:37:18Z">
+  <suite name="Suite" duration-ms="29171" started-at="2019-01-17T01:58:11Z" finished-at="2019-01-17T01:58:40Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchManyFeature@28ac3dc3]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature@23fe1d71]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="53101" started-at="2019-01-17T01:36:25Z" finished-at="2019-01-17T01:37:18Z">
+    <test name="Test" duration-ms="29171" started-at="2019-01-17T01:58:11Z" finished-at="2019-01-17T01:58:40Z">
       <class name="com.Jena.cucumber.prallel.google.runners.SearchManyFeature">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchManyFeature@28ac3dc3]" name="setUpClass" is-config="true" duration-ms="133" started-at="2019-01-17T01:36:25Z" finished-at="2019-01-17T01:36:25Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchManyFeature@28ac3dc3]" name="setUpClass" is-config="true" duration-ms="148" started-at="2019-01-17T01:58:11Z" finished-at="2019-01-17T01:58:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchManyFeature@28ac3dc3]" name="runScenario" duration-ms="38381" started-at="2019-01-17T01:36:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T01:37:04Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchManyFeature@28ac3dc3]" name="runScenario" duration-ms="15845" started-at="2019-01-17T01:58:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T01:58:27Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchManyFeature@28ac3dc3]" name="runScenario" duration-ms="14474" started-at="2019-01-17T01:37:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T01:37:18Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchManyFeature@28ac3dc3]" name="runScenario" duration-ms="13109" started-at="2019-01-17T01:58:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T01:58:40Z">
           <params>
             <param index="0">
               <value>
@@ -47,17 +47,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchManyFeature@28ac3dc3]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2019-01-17T01:37:18Z" finished-at="2019-01-17T01:37:18Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchManyFeature@28ac3dc3]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2019-01-17T01:58:40Z" finished-at="2019-01-17T01:58:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.Jena.cucumber.prallel.google.runners.SearchManyFeature -->
       <class name="com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature@23fe1d71]" name="setUpClass" is-config="true" duration-ms="131" started-at="2019-01-17T01:36:25Z" finished-at="2019-01-17T01:36:25Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature@23fe1d71]" name="setUpClass" is-config="true" duration-ms="148" started-at="2019-01-17T01:58:11Z" finished-at="2019-01-17T01:58:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature@23fe1d71]" name="runScenario" duration-ms="26264" started-at="2019-01-17T01:36:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T01:36:52Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature@23fe1d71]" name="runScenario" duration-ms="13987" started-at="2019-01-17T01:58:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T01:58:25Z">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature@23fe1d71]" name="runScenario" duration-ms="17041" started-at="2019-01-17T01:36:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T01:37:09Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature@23fe1d71]" name="runScenario" duration-ms="14858" started-at="2019-01-17T01:58:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-01-17T01:58:40Z">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature@23fe1d71]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2019-01-17T01:37:09Z" finished-at="2019-01-17T01:37:09Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Jena.cucumber.prallel.google.runners.SearchOutlineFeature@23fe1d71]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2019-01-17T01:58:40Z" finished-at="2019-01-17T01:58:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

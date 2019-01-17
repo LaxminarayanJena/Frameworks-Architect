@@ -12,6 +12,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="CucumberParallelWithPageObjects"/>
 			<item value="CucumberBDDParallel"/>
 			<item value="PageObjectExtended"/>
 			<item value="CucumberPageObjects"/>
